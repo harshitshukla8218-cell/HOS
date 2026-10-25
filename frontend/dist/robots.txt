@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin-panel-direct
+Disallow: /checkout
+Disallow: /api/
+
+Sitemap: https://houseofsimons.com/sitemap.xml

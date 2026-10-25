@@ -1,0 +1,499 @@
+{
+  "users": [
+    {
+      "_id": "zkhknlhhf",
+      "createdAt": "2026-09-13T20:03:58.744Z",
+      "updatedAt": "2026-09-13T20:03:58.744Z",
+      "name": "HOS Administrator",
+      "email": "admin@hos.com",
+      "password": "$2a$10$XWLcDg6wix6.G7OnDthV..zi6jKUiGYnlUuqsYpQSKNlsj7pTmM3i",
+      "role": "admin",
+      "addresses": [],
+      "savedSizes": {}
+    },
+    {
+      "_id": "pau2p9691",
+      "createdAt": "2026-09-13T20:03:58.745Z",
+      "updatedAt": "2026-09-13T20:03:58.745Z",
+      "name": "Anushka Chauhan",
+      "email": "customer@hos.com",
+      "password": "$2a$10$XWLcDg6wix6.G7OnDthV..e8Zegapl1/PEe9mP/aqs7Ajmj20n4mG",
+      "role": "customer",
+      "addresses": [
+        {
+          "id": "addr-1",
+          "fullName": "Anushka Chauhan",
+          "street": "45, Lodhi Colony",
+          "city": "New Delhi",
+          "state": "Delhi",
+          "postalCode": "110003",
+          "country": "India",
+          "phone": "+91 98765 43210",
+          "isDefault": true
+        }
+      ],
+      "savedSizes": {
+        "dresses": "S",
+        "tops": "S",
+        "bottoms": "M"
+      }
+    }
+  ],
+  "products": [
+    {
+      "_id": "hos-line-01",
+      "createdAt": "2026-10-24T20:31:12.2368171Z",
+      "updatedAt": "2026-10-24T20:31:12.2661308Z",
+      "name": "Line Sheet Item 01 - Blue",
+      "slug": "line-sheet-item-01-blue",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-01/062D0961-FD2D-4C43-B4B8-66FD5CA32F6D.png",
+        "/images/catalog/item-01/26A26CC6-D5AA-4F92-AF7B-8F2105065F65.png",
+        "/images/catalog/item-01/788B2B4B-BE28-40D4-A072-E6E6E20E0A67.png",
+        "/images/catalog/item-01/9C2FC821-12A4-40C0-89D8-9549EF1A4240.png",
+        "/images/catalog/item-01/C544B2FC-6872-483D-9072-79D111E094FA.png",
+        "/images/catalog/item-01/DAD0378E-71B3-464F-9308-8C784A210975.png",
+        "/images/catalog/item-01/F996B1EF-EB90-40DF-AEF2-678870C1682D.png",
+        "/images/catalog/item-01/FEED5D1C-A9EC-484D-951F-DB935F9F91E2.png"
+      ],
+      "description": "Line-sheet item 1. Color: Blue. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 1\nStyle: Not listed in the workbook\nColor as listed: blue\nPrice as listed: 9500",
+      "sizes": [],
+      "colors": [
+        "Blue"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-02",
+      "createdAt": "2026-10-24T20:31:12.5056183Z",
+      "updatedAt": "2026-10-24T20:31:12.5056183Z",
+      "name": "Line Sheet Item 02 - Pink",
+      "slug": "line-sheet-item-02-pink",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-02/08061BBE-5A40-4EBF-ADE3-7EFCA3D2236E.png",
+        "/images/catalog/item-02/1DE402BC-8998-4938-8530-A9B6D1B16C7E.png",
+        "/images/catalog/item-02/836841936_1044727778585334_3217472408387065615_n.webp",
+        "/images/catalog/item-02/837091267_1413928290147324_8366949403373383948_n.webp",
+        "/images/catalog/item-02/839180088_2016963538964596_2695606320603381546_n.webp",
+        "/images/catalog/item-02/840023177_1119185243788954_433840885230629191_n.webp",
+        "/images/catalog/item-02/AF794238-6AF4-4CEA-809F-070A0E9C35FD.png",
+        "/images/catalog/item-02/IMG_7901.PNG",
+        "/images/catalog/item-02/IMG_7902.PNG"
+      ],
+      "description": "Line-sheet item 2. Color: Pink. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 2\nStyle: Not listed in the workbook\nColor as listed: pink\nPrice as listed: 9500",
+      "sizes": [],
+      "colors": [
+        "Pink"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-03",
+      "createdAt": "2026-10-24T20:31:12.7325991Z",
+      "updatedAt": "2026-10-24T20:31:12.7325991Z",
+      "name": "Line Sheet Item 03 - Sky Blue",
+      "slug": "line-sheet-item-03-sky-blue",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-03/1820224F-F237-46F1-9EA3-AC7C58735F58.png",
+        "/images/catalog/item-03/758591146_1572856451053133_2422367872188571395_n.png",
+        "/images/catalog/item-03/811748901_2163489134382412_3602746854515652175_n.webp",
+        "/images/catalog/item-03/811748915_3070588366606522_1003431174928816891_n.webp",
+        "/images/catalog/item-03/811902691_2237491403706620_132233369663508473_n.webp",
+        "/images/catalog/item-03/B744AFAC-C55C-4823-89F1-F6C0D46BF3DF.png",
+        "/images/catalog/item-03/DA7619F4-6B64-47A7-83AF-4FB911F1975B.png",
+        "/images/catalog/item-03/E5949BF4-67F7-4D8A-9D0E-3EC3205920C7.png"
+      ],
+      "description": "Line-sheet item 3. Color: Sky Blue. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 3\nStyle: Not listed in the workbook\nColor as listed: sky blue\nPrice as listed: 9500",
+      "sizes": [],
+      "colors": [
+        "Sky Blue"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-04",
+      "createdAt": "2026-10-24T20:31:12.9447932Z",
+      "updatedAt": "2026-10-24T20:31:12.9447932Z",
+      "name": "Line Sheet Item 04 - White",
+      "slug": "line-sheet-item-04-white",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-04/059E65F1-1AA2-4BDF-A9FC-9FBEC3AFF83C.png",
+        "/images/catalog/item-04/1187968D-EA5B-4732-B09E-491CDE3D214C.png",
+        "/images/catalog/item-04/6AF2BDCD-2073-4C0B-9D37-1DF6DEC9EEFC.png",
+        "/images/catalog/item-04/7DC2E42E-D749-4215-9C42-290A962F7D26.png",
+        "/images/catalog/item-04/808973746_1091195293648562_2862050065617853268_n.webp",
+        "/images/catalog/item-04/9B9E28D2-6C58-4ABF-8FD6-23334A4B09EC.png",
+        "/images/catalog/item-04/D00D1131-747D-4E85-9A75-CDC32380D398.png",
+        "/images/catalog/item-04/DB0D209B-051B-48DA-A25E-5193B689295B.png",
+        "/images/catalog/item-04/ED4F6633-CA1F-44EF-A829-54CCB8D49258.png"
+      ],
+      "description": "Line-sheet item 4. Color: White. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 4\nStyle: Not listed in the workbook\nColor as listed: whtie\nPrice as listed: 9500",
+      "sizes": [],
+      "colors": [
+        "White"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-05",
+      "createdAt": "2026-10-24T20:31:13.1055251Z",
+      "updatedAt": "2026-10-24T20:31:13.1055251Z",
+      "name": "BIB -15010 - White",
+      "slug": "line-sheet-item-05-white",
+      "price": 12500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-05/149866EF-16F5-4A4C-BD64-0C03E51CD038.png",
+        "/images/catalog/item-05/4327319C-E447-4CF3-B6D9-E1766A387AF0.png",
+        "/images/catalog/item-05/4EE09B15-05C3-41C4-A2D9-C2B5B6A13E86.png",
+        "/images/catalog/item-05/837194402_1471290191589033_8612435709583241296_n.webp",
+        "/images/catalog/item-05/838159078_1130469379409295_7732172217895862842_n.webp",
+        "/images/catalog/item-05/838579468_1724637831948368_2005332548793698553_n.webp",
+        "/images/catalog/item-05/839618237_2939664606388472_4922182818454437922_n.webp",
+        "/images/catalog/item-05/840601111_2152926065323940_8034863659144197111_n.webp",
+        "/images/catalog/item-05/841208986_4044635009006597_3710706164188273790_n.webp"
+      ],
+      "description": "Line-sheet item 5. Color: White. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 5\nStyle: BIB -15010\nColor as listed: white\nPrice as listed: 12500",
+      "sizes": [],
+      "colors": [
+        "White"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "BIB -15010",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-06",
+      "createdAt": "2026-10-24T20:31:13.2419786Z",
+      "updatedAt": "2026-10-24T20:31:13.2419786Z",
+      "name": "15008 - Sky Blue",
+      "slug": "line-sheet-item-06-sky-blue",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-06/18E55A8F-4A17-42AD-8F72-E35CEEF65D2F.png",
+        "/images/catalog/item-06/1CB21237-C98F-41EE-AC54-F27DF094CBB1.png",
+        "/images/catalog/item-06/35E7F869-BDB2-4DDF-A0D9-5023F30B8A4C.png",
+        "/images/catalog/item-06/89D9A75C-DF2F-4372-B764-854562D4A0AB.png",
+        "/images/catalog/item-06/93BA18F0-881E-4051-B44C-69AF178D0546.png"
+      ],
+      "description": "Line-sheet item 6. Color: Sky Blue. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 6\nStyle: 15008\nColor as listed: sky blue\nPrice as listed: 9500",
+      "sizes": [],
+      "colors": [
+        "Sky Blue"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "15008",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-07",
+      "createdAt": "2026-10-24T20:31:13.3995216Z",
+      "updatedAt": "2026-10-24T20:31:13.3995216Z",
+      "name": "15008 - Neon Green",
+      "slug": "line-sheet-item-07-neon-green",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-07/825279512_960699476527366_6543739947612842016_n(1).webp",
+        "/images/catalog/item-07/825279512_960699476527366_6543739947612842016_n.webp",
+        "/images/catalog/item-07/825279649_2194615224770253_7847944347881493039_n.webp",
+        "/images/catalog/item-07/825279743_3303577369836495_2264388622340399894_n(1).webp",
+        "/images/catalog/item-07/825279743_3303577369836495_2264388622340399894_n.webp",
+        "/images/catalog/item-07/826510460_1015883468177375_43820322614453884_n.webp",
+        "/images/catalog/item-07/827831926_1621812626324384_8848231396792871937_n.webp",
+        "/images/catalog/item-07/IMG_7023.JPG"
+      ],
+      "description": "Line-sheet item 7. Color: Neon Green. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 7\nStyle: 15008\nColor as listed: neon green\nPrice as listed: 9500",
+      "sizes": [],
+      "colors": [
+        "Neon Green"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "15008",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-08",
+      "createdAt": "2026-10-24T20:31:13.5742684Z",
+      "updatedAt": "2026-10-24T20:31:13.5742684Z",
+      "name": "15003 - Beige",
+      "slug": "line-sheet-item-08-beige",
+      "price": 13500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-08/walkin_exact_design.png",
+        "/images/catalog/item-08/back_no_pocket_no_belt.png",
+        "/images/catalog/item-08/BE9330E4-ED4D-439B-BFCE-2EA4DEBD7C0C.png",
+        "/images/catalog/item-08/E94E0485-9D3E-4405-AC61-633B6B495B09.png",
+        "/images/catalog/item-08/front_collar_design.png",
+        "/images/catalog/item-08/sitting_nude_sandal.png"
+      ],
+      "description": "Line-sheet item 8. Color: Beige. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 8\nStyle: 15003\nColor as listed: beige\nPrice as listed: 13500",
+      "sizes": [],
+      "colors": [
+        "Beige"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "15003",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-09",
+      "createdAt": "2026-10-24T20:31:13.7927831Z",
+      "updatedAt": "2026-10-24T20:31:13.7927831Z",
+      "name": "Line Sheet Item 09 - Beige",
+      "slug": "line-sheet-item-09-beige",
+      "price": 12500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-09/825279906_1446969203959544_1613350937502182026_n.webp",
+        "/images/catalog/item-09/back_look.png",
+        "/images/catalog/item-09/detail_closeup.png",
+        "/images/catalog/item-09/lean1.png",
+        "/images/catalog/item-09/lean2.png",
+        "/images/catalog/item-09/pants_clip_hanger_exact.png",
+        "/images/catalog/item-09/shirt_back_wire.png",
+        "/images/catalog/item-09/shirt_wire_hanger.png",
+        "/images/catalog/item-09/side_look.png"
+      ],
+      "description": "Line-sheet item 9. Color: Beige. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 9\nStyle: Not listed in the workbook\nColor as listed: beige\nPrice as listed: 12500",
+      "sizes": [],
+      "colors": [
+        "Beige"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-line-10",
+      "createdAt": "2026-10-24T20:31:13.9220748Z",
+      "updatedAt": "2026-10-24T20:31:13.9220748Z",
+      "name": "Line Sheet Item 10 - Pink",
+      "slug": "line-sheet-item-10-pink",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/item-10/837569938_1021382370913627_7332682066597850422_n.webp",
+        "/images/catalog/item-10/857370668_1647572756738279_7595804168396558978_n.webp",
+        "/images/catalog/item-10/858525029_29581758578075579_6363823448502280028_n.webp",
+        "/images/catalog/item-10/860002852_1567200601829871_5317392307003485330_n.webp",
+        "/images/catalog/item-10/C2550D1A-9FA9-4F7C-91D3-518816497545.png",
+        "/images/catalog/item-10/DE97E341-5C96-4F8A-B472-1BEA6BE3A359.png"
+      ],
+      "description": "Line-sheet item 10. Color: Pink. The supplied workbook does not provide sizing or stock information.",
+      "details": "Line-sheet item: 10\nStyle: Not listed in the workbook\nColor as listed: pink\nPrice as listed: 9500",
+      "sizes": [],
+      "colors": [
+        "Pink"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "New Season",
+        "New Arrivals"
+      ],
+      "occasions": [],
+      "inventory": null,
+      "rating": null,
+      "sku": "",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    }
+  ],
+  "orders": [],
+  "coupons": [
+    {
+      "_id": "3oal2ybwd",
+      "createdAt": "2026-09-13T20:03:58.752Z",
+      "updatedAt": "2026-09-13T20:03:58.752Z",
+      "code": "HOS10",
+      "type": "percentage",
+      "value": 10,
+      "minOrderValue": 15000,
+      "expiryDate": "2027-12-31",
+      "usageLimit": 100,
+      "usageCount": 0,
+      "active": true
+    },
+    {
+      "_id": "w1jh9gtlv",
+      "createdAt": "2026-09-13T20:03:58.752Z",
+      "updatedAt": "2026-09-13T20:03:58.753Z",
+      "code": "WELCOME5000",
+      "type": "fixed",
+      "value": 5000,
+      "minOrderValue": 30000,
+      "expiryDate": "2027-12-31",
+      "usageLimit": 50,
+      "usageCount": 0,
+      "active": true
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "kw8l9589w",
+      "createdAt": "2026-09-13T20:03:58.753Z",
+      "updatedAt": "2026-09-13T20:03:58.753Z",
+      "productId": "45p1a11gu",
+      "rating": 5,
+      "title": "Absolutely Stunning",
+      "text": "The drape and quality of silk satin is unmatched. It fits like a dream and is perfect for formal evenings. Looking forward to buying more colors.",
+      "customerName": "Meera Sen",
+      "verified": true
+    },
+    {
+      "_id": "46dwb21r9",
+      "createdAt": "2026-09-13T20:03:58.754Z",
+      "updatedAt": "2026-09-13T20:03:58.754Z",
+      "productId": "45p1a11gu",
+      "rating": 4,
+      "title": "Beautiful but long",
+      "text": "Elegant gown, very classy. I had to get it hemmed slightly for my height (5'4\"), but otherwise it is beautiful and feels premium.",
+      "customerName": "Rohini R.",
+      "verified": true
+    },
+    {
+      "_id": "y053nnp2r",
+      "createdAt": "2026-09-13T20:03:58.755Z",
+      "updatedAt": "2026-09-13T20:03:58.755Z",
+      "productId": "cnkkijgfw",
+      "rating": 5,
+      "title": "Power Suit Perfection",
+      "text": "The structure of the blazer is incredible. Wide trousers drape beautifully. Highly recommend this for important work presentations or luxury evening brunch.",
+      "customerName": "Aditi Sharma",
+      "verified": true
+    }
+  ],
+  "cms": {
+    "announcement": "FREE SHIPPING ACROSS INDIA — NEW COLLECTION — SHOP NOW",
+    "hero": {
+      "heading": "THE NEW STANDARD OF MODERN LUXURY",
+      "subheading": "Designed for women who define their own style.",
+      "desktopImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2560&auto=format&fit=crop",
+      "mobileImage": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1440&auto=format&fit=crop"
+    },
+    "editorialBanner": {
+      "heading": "THE ART OF DRESSING",
+      "subheading": "Contemporary silhouettes. Timeless confidence.",
+      "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2560&auto=format&fit=crop"
+    },
+    "featuredCollection": {
+      "heading": "THE SIGNATURE EDIT",
+      "subheading": "Where refined silhouettes meet modern femininity.",
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2560"
+    },
+    "brandStory": {
+      "heading": "HOS",
+      "text": "House of Simons creates contemporary couture fashion for women who value individuality, craftsmanship and effortless elegance.",
+      "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1600"
+    }
+  }
+}
