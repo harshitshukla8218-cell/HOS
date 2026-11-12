@@ -25,9 +25,9 @@ export default function Shop() {
   const currentSort = searchParams.get('sort') || 'featured';
 
   // Available filters configuration
-  const categoriesList = ['Dresses', 'Tops', 'Co-ords', 'Jackets', 'Trousers', 'Skirts', 'Gowns'];
-  const sizesList = ['XS', 'S', 'M', 'L', 'XL'];
-  const colorsList = ['Warm Ivory', 'Charcoal', 'Sage Beige', 'Terracotta', 'Off White', 'Camel Beige', 'Emerald', 'Onyx Black', 'Sky Blue', 'Champagne Gold'];
+  const categoriesList = ['All', 'Co-ords', 'Dresses', 'Tops', 'Jackets', 'Trousers'];
+  const sizesList = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
+  const colorsList = ['Off White', 'Beige', 'White', 'Blue', 'Sky Blue', 'Black', 'Pink', 'Light Pink', 'Green', 'Yellow', 'Red', 'Orange', 'Maroon', 'Aubergine', 'Multicolor'];
 
   const priceRanges = [
     { label: 'All Prices', min: '', max: '' },

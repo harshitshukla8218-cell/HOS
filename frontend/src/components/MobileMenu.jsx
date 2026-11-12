@@ -26,11 +26,12 @@ export default function MobileMenu({ isOpen, onClose }) {
       { name: 'Gowns', link: '/shop?category=Gowns' },
     ],
     collections: [
+      { name: 'Embroidery Collection', link: '/shop?collection=embroidery-collection' },
+      { name: 'Print Collection', link: '/shop?collection=print-collection' },
       { name: 'New Season', link: '/shop?collection=new-season' },
+      { name: 'New Arrivals', link: '/shop?collection=new-arrivals' },
       { name: 'Resort', link: '/shop?collection=resort' },
       { name: 'Evening', link: '/shop?collection=evening' },
-      { name: 'Vacation', link: '/shop?collection=vacation' },
-      { name: 'Workwear', link: '/shop?collection=workwear' },
     ],
     occasion: [
       { name: 'Wedding Guest', link: '/shop?occasion=wedding-guest' },
