@@ -167,19 +167,21 @@ export default function ProductDetail() {
             />
           </div>
 
-          {/* Thumbnails row */}
-          <div className="flex space-x-3 overflow-x-auto no-scrollbar">
-            {product.images.map((img, idx) => (
-              <button
-                key={idx}
-                onClick={() => setActiveImageIdx(idx)}
-                className={`flex-none w-20 aspect-[4/5] bg-luxury-beige rounded-sm overflow-hidden border transition-all ${activeImageIdx === idx ? 'border-luxury-charcoal shadow-sm' : 'border-transparent opacity-70 hover:opacity-100'
-                  }`}
-              >
-                <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
-              </button>
-            ))}
-          </div>
+          {/* Thumbnails row (only if multiple images) */}
+          {product.images && product.images.length > 1 && (
+            <div className="flex space-x-3 overflow-x-auto no-scrollbar">
+              {product.images.map((img, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setActiveImageIdx(idx)}
+                  className={`flex-none w-20 aspect-[4/5] bg-luxury-beige rounded-sm overflow-hidden border transition-all ${activeImageIdx === idx ? 'border-luxury-charcoal shadow-sm' : 'border-transparent opacity-70 hover:opacity-100'
+                    }`}
+                >
+                  <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
+                </button>
+              ))}
+            </div>
+          )}
 
         </div>
 
