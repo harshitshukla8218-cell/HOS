@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function OccasionEdit() {
   const occasions = [
-    { name: 'EVENING', img: '/images/catalog/category-gowns/858093683_1112916044873911_8752192377420439912_n.webp', query: 'evening' },
+    { name: 'EVENING', img: '/images/gowns_celeste_1.jpg', query: 'evening' },
     { name: 'WEDDING GUEST', img: '/images/occasion_wedding.jpg', query: 'wedding-guest' },
     { name: 'VACATION', img: '/images/occasion_vacation.jpg', query: 'vacation' },
     { name: 'BRUNCH', img: '/images/occasion_brunch.jpg', query: 'brunch' },

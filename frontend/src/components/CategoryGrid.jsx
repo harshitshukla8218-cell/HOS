@@ -6,11 +6,11 @@ export default function CategoryGrid() {
     { name: 'DRESSES', img: '/images/dresses_aurelia_1.jpg', query: 'Dresses' },
     { name: 'TOPS', img: '/images/tops_camisole_1.jpg', query: 'Tops' },
     { name: 'CO-ORDS', img: '/images/coords_simone_1.jpg', query: 'Co-ords' },
-    { name: 'JACKETS', img: '/images/catalog/item-08/E94E0485-9D3E-4405-AC61-633B6B495B09.png', query: 'Jackets' },
+    { name: 'JACKETS', img: '/images/jackets_elara_1.jpg', query: 'Jackets' },
     { name: 'TROUSERS', img: '/images/trousers_celine_1.jpg', query: 'Trousers' },
     { name: 'SKIRTS', img: '/images/dresses_aurelia_2.jpg', query: 'Skirts' },
     { name: 'JUMPSUITS', img: '/images/coords_simone_2.jpg', query: 'Jumpsuits' },
-    { name: 'GOWNS', img: '/images/catalog/category-gowns/858093683_1112916044873911_8752192377420439912_n.webp', query: 'Gowns' },
+    { name: 'GOWNS', img: '/images/gowns_celeste_1.jpg', query: 'Gowns' },
   ];
 
   return (
