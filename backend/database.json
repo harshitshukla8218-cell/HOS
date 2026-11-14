@@ -142,7 +142,7 @@
       "sku": "PRT-15002",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-03",
@@ -259,7 +259,7 @@
       "sku": "EMB-15011",
       "bestseller": true,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-05",
@@ -314,7 +314,7 @@
       "sku": "PRT-15003",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-06",
@@ -364,7 +364,7 @@
       "sku": "15008",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-07",
@@ -524,7 +524,7 @@
       "sku": "15003",
       "bestseller": true,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-10",
@@ -575,7 +575,7 @@
       "sku": "PRT-15013-PK",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-11",
@@ -678,7 +678,7 @@
       "sku": "EMB-15015",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-13",
@@ -727,7 +727,7 @@
       "sku": "EMB-15004",
       "bestseller": true,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-14",
@@ -777,7 +777,7 @@
       "sku": "PRT-15007",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-15",
@@ -876,7 +876,7 @@
       "sku": "EMB-15003-B",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-17",
@@ -925,7 +925,7 @@
       "sku": "PRT-15009",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-18",
@@ -974,7 +974,7 @@
       "sku": "PRT-15008-GN",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-19",
@@ -1069,7 +1069,7 @@
       "sku": "PRT-15012",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-21",
@@ -1117,7 +1117,7 @@
       "sku": "EMB-15009",
       "bestseller": true,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-22",
@@ -1166,7 +1166,7 @@
       "sku": "EMB-15005",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-23",
@@ -1215,7 +1215,7 @@
       "sku": "EMB-15008",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-24",
@@ -1267,7 +1267,7 @@
       "sku": "EMB-15010-BG",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-25",
@@ -1367,7 +1367,7 @@
       "sku": "EMB-15007",
       "bestseller": true,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-27",
@@ -1415,7 +1415,7 @@
       "sku": "PRT-15014-BL",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-28",
@@ -1463,7 +1463,7 @@
       "sku": "PRT-15014-YL",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-29",
@@ -1510,7 +1510,7 @@
       "sku": "PRT-15014-GR",
       "bestseller": false,
       "newArrival": true,
-      "featured": false
+      "featured": true
     },
     {
       "_id": "hos-prod-30",
@@ -1568,7 +1568,7 @@
       "sku": "EMB-15013-MR",
       "bestseller": true,
       "newArrival": true,
-      "featured": false
+      "featured": true
     }
   ],
   "orders": [],

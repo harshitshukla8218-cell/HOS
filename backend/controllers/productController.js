@@ -83,9 +83,9 @@ export const getProducts = async (req, res) => {
       } else if (sort === 'newest') {
         products.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
       } else if (sort === 'bestselling') {
-        products = products.filter(p => p.bestseller);
+        products.sort((a, b) => (b.bestseller ? 1 : 0) - (a.bestseller ? 1 : 0));
       } else if (sort === 'featured') {
-        products = products.filter(p => p.featured);
+        products.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
       }
     }
 
