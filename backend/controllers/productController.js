@@ -15,9 +15,15 @@ export const getProducts = async (req, res) => {
 
     // 2. Filter by collection
     if (collection) {
-      const colLower = collection.toLowerCase().replace('-', ' ');
+      const colClean = collection.toLowerCase().replace(/-/g, ' ').trim();
       products = products.filter(p =>
-        p.collections && p.collections.some(c => c.toLowerCase().replace('-', ' ') === colLower)
+        p.collections && p.collections.some(c => {
+          const itemCol = c.toLowerCase().replace(/-/g, ' ').trim();
+          if (itemCol === colClean || itemCol.includes(colClean) || colClean.includes(itemCol)) return true;
+          if (colClean.startsWith('embroid') && itemCol.includes('embroid')) return true;
+          if (colClean.startsWith('print') && itemCol.includes('print')) return true;
+          return false;
+        })
       );
     }
 

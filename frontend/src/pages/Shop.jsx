@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Filter, X, Grid, SlidersHorizontal } from 'lucide-react';
+import { Filter, X, Grid, SlidersHorizontal, Sparkles } from 'lucide-react';
 import api from '../utils/api.js';
 import ProductCard from '../components/ProductCard.jsx';
 import QuickViewModal from '../components/QuickViewModal.jsx';
@@ -26,6 +26,11 @@ export default function Shop() {
 
   // Available filters configuration
   const categoriesList = ['All', 'Co-ords', 'Dresses', 'Tops', 'Jackets', 'Trousers'];
+  const collectionsList = [
+    { label: 'All Collections', value: '' },
+    { label: 'Embroidered Collection', value: 'embroidery-collection' },
+    { label: 'Print Collection', value: 'print-collection' },
+  ];
   const sizesList = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
   const colorsList = ['Off White', 'Beige', 'White', 'Blue', 'Sky Blue', 'Black', 'Pink', 'Light Pink', 'Green', 'Yellow', 'Red', 'Orange', 'Maroon', 'Aubergine', 'Multicolor'];
 
@@ -36,6 +41,20 @@ export default function Shop() {
     { label: '₹20,000 – ₹30,000', min: '20000', max: '30000' },
     { label: '₹30,000+', min: '30000', max: '' },
   ];
+
+  // Helper to check craft / collection classification
+  const isEmbroideredProduct = (p) => {
+    return p.collections?.some((c) => c.toLowerCase().includes('embroid'));
+  };
+
+  const isPrintProduct = (p) => {
+    return p.collections?.some((c) => c.toLowerCase().includes('print'));
+  };
+
+  // Grouped products
+  const embroideredProducts = products.filter(isEmbroideredProduct);
+  const printProducts = products.filter((p) => !isEmbroideredProduct(p) && isPrintProduct(p));
+  const otherProducts = products.filter((p) => !isEmbroideredProduct(p) && !isPrintProduct(p));
 
   // Fetch products matching parameters
   useEffect(() => {
@@ -94,12 +113,17 @@ export default function Shop() {
   };
 
   const getCollectionTitle = () => {
-    if (currentCategory) return currentCategory;
     if (currentCollection) {
-      return currentCollection.replace('-', ' ') + ' Collection';
+      const clean = currentCollection.toLowerCase().replace(/-/g, ' ');
+      if (clean.includes('embroid')) return 'Embroidered Collection';
+      if (clean.includes('print')) return 'Print Collection';
+      return clean.replace(/\b\w/g, (c) => c.toUpperCase());
     }
+    if (currentCategory) return currentCategory;
     if (currentOccasion) {
-      return currentOccasion.replace('-', ' ') + ' Edit';
+      const clean = currentOccasion.replace(/-/g, ' ');
+      if (clean.toLowerCase().includes('edit')) return clean.replace(/\b\w/g, (c) => c.toUpperCase());
+      return `${clean.replace(/\b\w/g, (c) => c.toUpperCase())} Edit`;
     }
     if (currentSearch) {
       return `Search: "${currentSearch}"`;
@@ -113,6 +137,13 @@ export default function Shop() {
   // Helper to check if a specific price range is active
   const isPriceActive = (range) => {
     return currentMinPrice === range.min && currentMaxPrice === range.max;
+  };
+
+  // Check if a collection filter matches
+  const isCollectionActive = (val) => {
+    if (!val && !currentCollection) return true;
+    if (!val || !currentCollection) return false;
+    return currentCollection.toLowerCase().replace(/-/g, ' ') === val.toLowerCase().replace(/-/g, ' ');
   };
 
   return (
@@ -142,6 +173,26 @@ export default function Shop() {
             </button>
           </div>
 
+          {/* Collection Filter */}
+          <div className="mb-8">
+            <h4 className="text-[10px] uppercase tracking-luxury text-luxury-charcoal font-semibold mb-3">Collection / Section</h4>
+            <div className="space-y-2">
+              {collectionsList.map((col) => (
+                <button
+                  key={col.label}
+                  onClick={() => updateFilter('collection', isCollectionActive(col.value) && col.value ? '' : col.value)}
+                  className={`block text-xs text-left w-full transition-colors ${
+                    isCollectionActive(col.value)
+                      ? 'text-luxury-champagne font-semibold'
+                      : 'text-luxury-muted hover:text-luxury-charcoal'
+                  }`}
+                >
+                  {col.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* Category Filter */}
           <div className="mb-8">
             <h4 className="text-[10px] uppercase tracking-luxury text-luxury-charcoal font-semibold mb-3">Category</h4>
@@ -150,8 +201,9 @@ export default function Shop() {
                 <button
                   key={cat}
                   onClick={() => updateFilter('category', currentCategory === cat ? '' : cat)}
-                  className={`block text-xs text-left w-full transition-colors ${currentCategory === cat ? 'text-luxury-champagne font-semibold' : 'text-luxury-muted hover:text-luxury-charcoal'
-                    }`}
+                  className={`block text-xs text-left w-full transition-colors ${
+                    currentCategory === cat ? 'text-luxury-champagne font-semibold' : 'text-luxury-muted hover:text-luxury-charcoal'
+                  }`}
                 >
                   {cat}
                 </button>
@@ -167,10 +219,11 @@ export default function Shop() {
                 <button
                   key={size}
                   onClick={() => updateFilter('size', currentSize === size ? '' : size)}
-                  className={`border text-[10px] font-medium w-8 h-8 flex items-center justify-center rounded-sm transition-all ${currentSize === size
-                    ? 'border-luxury-charcoal bg-luxury-charcoal text-white'
-                    : 'border-luxury-charcoal/10 hover:border-luxury-charcoal bg-white text-luxury-charcoal'
-                    }`}
+                  className={`border text-[10px] font-medium w-8 h-8 flex items-center justify-center rounded-sm transition-all ${
+                    currentSize === size
+                      ? 'border-luxury-charcoal bg-luxury-charcoal text-white'
+                      : 'border-luxury-charcoal/10 hover:border-luxury-charcoal bg-white text-luxury-charcoal'
+                  }`}
                 >
                   {size}
                 </button>
@@ -191,8 +244,9 @@ export default function Shop() {
                     if (range.max) params.set('maxPrice', range.max); else params.delete('maxPrice');
                     setSearchParams(params);
                   }}
-                  className={`block text-xs text-left w-full transition-colors ${isPriceActive(range) ? 'text-luxury-champagne font-semibold' : 'text-luxury-muted hover:text-luxury-charcoal'
-                    }`}
+                  className={`block text-xs text-left w-full transition-colors ${
+                    isPriceActive(range) ? 'text-luxury-champagne font-semibold' : 'text-luxury-muted hover:text-luxury-charcoal'
+                  }`}
                 >
                   {range.label}
                 </button>
@@ -208,10 +262,11 @@ export default function Shop() {
                 <button
                   key={col}
                   onClick={() => updateFilter('color', currentColor === col ? '' : col)}
-                  className={`px-2 py-1 border text-[9px] uppercase tracking-wider rounded-sm transition-all ${currentColor === col
-                    ? 'border-luxury-charcoal bg-luxury-charcoal text-white font-medium'
-                    : 'border-luxury-charcoal/10 hover:border-luxury-charcoal bg-white text-luxury-charcoal'
-                    }`}
+                  className={`px-2 py-1 border text-[9px] uppercase tracking-wider rounded-sm transition-all ${
+                    currentColor === col
+                      ? 'border-luxury-charcoal bg-luxury-charcoal text-white font-medium'
+                      : 'border-luxury-charcoal/10 hover:border-luxury-charcoal bg-white text-luxury-charcoal'
+                  }`}
                 >
                   {col}
                 </button>
@@ -236,10 +291,64 @@ export default function Shop() {
         {/* PRODUCTS AREA */}
         <main className="min-w-0 flex-1 pl-0 lg:pl-8">
 
+          {/* Top Section Tabs Switcher */}
+          <div className="flex flex-wrap items-center gap-2 mb-6 pb-4 border-b border-luxury-charcoal/10">
+            <button
+              onClick={() => updateFilter('collection', '')}
+              className={`px-4 py-2 text-xs uppercase tracking-luxury rounded-sm transition-all font-medium ${
+                !currentCollection
+                  ? 'bg-luxury-charcoal text-white shadow-xs'
+                  : 'bg-white border border-luxury-charcoal/15 text-luxury-charcoal hover:border-luxury-charcoal'
+              }`}
+            >
+              All Sections {!loading && `(${products.length})`}
+            </button>
+
+            <button
+              onClick={() => updateFilter('collection', 'embroidery-collection')}
+              className={`px-4 py-2 text-xs uppercase tracking-luxury rounded-sm transition-all flex items-center space-x-1.5 font-medium ${
+                currentCollection.toLowerCase().includes('embroid')
+                  ? 'bg-luxury-charcoal text-white shadow-xs'
+                  : 'bg-white border border-luxury-charcoal/15 text-luxury-charcoal hover:border-luxury-charcoal'
+              }`}
+            >
+              <span>Embroidered Section</span>
+              {!loading && (
+                <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                  currentCollection.toLowerCase().includes('embroid')
+                    ? 'bg-white/20 text-white'
+                    : 'bg-luxury-charcoal/5 text-luxury-muted'
+                }`}>
+                  {currentCollection.toLowerCase().includes('embroid') ? products.length : embroideredProducts.length}
+                </span>
+              )}
+            </button>
+
+            <button
+              onClick={() => updateFilter('collection', 'print-collection')}
+              className={`px-4 py-2 text-xs uppercase tracking-luxury rounded-sm transition-all flex items-center space-x-1.5 font-medium ${
+                currentCollection.toLowerCase().includes('print')
+                  ? 'bg-luxury-charcoal text-white shadow-xs'
+                  : 'bg-white border border-luxury-charcoal/15 text-luxury-charcoal hover:border-luxury-charcoal'
+              }`}
+            >
+              <span>Printed Section</span>
+              {!loading && (
+                <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                  currentCollection.toLowerCase().includes('print')
+                    ? 'bg-white/20 text-white'
+                    : 'bg-luxury-charcoal/5 text-luxury-muted'
+                }`}>
+                  {currentCollection.toLowerCase().includes('print') ? products.length : printProducts.length}
+                </span>
+              )}
+            </button>
+          </div>
+
           {/* Top Controls Row */}
           <div className="flex flex-wrap justify-between items-center gap-y-3 mb-8 pb-4 border-b border-luxury-charcoal/5">
             <div className="text-xs text-luxury-muted uppercase tracking-luxury">
-              {products.length} {products.length === 1 ? 'Creation' : 'Creations'}
+              {products.length} {products.length === 1 ? 'Creation' : 'Creations'} Total
             </div>
 
             {/* Filter Toggle on Mobile */}
@@ -269,7 +378,7 @@ export default function Shop() {
             </div>
           </div>
 
-          {/* Products Catalog Grid (4 cols desktop, 3 tablet, 2 mobile) */}
+          {/* Loading Skeleton */}
           {loading ? (
             <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
               {[...Array(8)].map((_, i) => (
@@ -281,6 +390,7 @@ export default function Shop() {
               ))}
             </div>
           ) : products.length === 0 ? (
+            /* Empty State */
             <div className="text-center py-24 bg-white border border-luxury-charcoal/5 rounded-sm">
               <p className="font-serif text-lg text-luxury-charcoal/50">No products found matching filters.</p>
               <button
@@ -290,15 +400,148 @@ export default function Shop() {
                 Reset All Filters
               </button>
             </div>
+          ) : currentCollection ? (
+            /* SINGLE COLLECTION VIEW */
+            <div>
+              <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-luxury-charcoal/10 pb-4 mb-8 gap-2">
+                <div>
+                  <span className="text-[9px] md:text-[10px] uppercase tracking-[0.25em] text-luxury-champagne font-semibold block">
+                    {currentCollection.toLowerCase().includes('embroid') ? 'Artisanal Craftsmanship' : 'Signature Motifs'}
+                  </span>
+                  <h2 className="font-serif text-xl md:text-2xl text-luxury-charcoal uppercase tracking-wider font-light mt-1">
+                    {getCollectionTitle()}
+                  </h2>
+                  <p className="text-[11px] text-luxury-muted uppercase tracking-luxury mt-1 font-light">
+                    {currentCollection.toLowerCase().includes('embroid')
+                      ? 'Handcrafted intricate needlework, delicate laces, and textured silhouettes'
+                      : 'Vibrant watercolor botanicals, abstract geometries & contemporary sets'}
+                  </p>
+                </div>
+                <div className="text-[11px] uppercase tracking-luxury text-luxury-muted font-medium">
+                  {products.length} {products.length === 1 ? 'Creation' : 'Creations'}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+                {products.map((product) => (
+                  <ProductCard
+                    key={product._id}
+                    product={product}
+                    onQuickView={(p) => setSelectedProduct(p)}
+                  />
+                ))}
+              </div>
+            </div>
           ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
-              {products.map((product) => (
-                <ProductCard
-                  key={product._id}
-                  product={product}
-                  onQuickView={(p) => setSelectedProduct(p)}
-                />
-              ))}
+            /* SEPARATED SECTIONS VIEW (ALL CREATIONS) */
+            <div className="space-y-16">
+
+              {/* 1. EMBROIDERED SECTION */}
+              {embroideredProducts.length > 0 && (
+                <section>
+                  <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-luxury-charcoal/10 pb-4 mb-8 gap-2">
+                    <div>
+                      <span className="text-[9px] md:text-[10px] uppercase tracking-[0.25em] text-luxury-champagne font-semibold block">
+                        Artisanal Needlework
+                      </span>
+                      <h2 className="font-serif text-xl md:text-2xl text-luxury-charcoal uppercase tracking-wider font-light mt-1">
+                        Embroidered Collection
+                      </h2>
+                      <p className="text-[11px] text-luxury-muted uppercase tracking-luxury mt-1 font-light">
+                        Intricate threadwork, delicate florals & textured couture craftsmanship
+                      </p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <span className="text-[11px] uppercase tracking-luxury text-luxury-muted font-medium">
+                        {embroideredProducts.length} {embroideredProducts.length === 1 ? 'Creation' : 'Creations'}
+                      </span>
+                      <button
+                        onClick={() => updateFilter('collection', 'embroidery-collection')}
+                        className="text-[10px] uppercase tracking-widest text-luxury-charcoal font-semibold border-b border-luxury-charcoal/30 hover:border-luxury-charcoal pb-0.5"
+                      >
+                        View Only Embroidered &rarr;
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+                    {embroideredProducts.map((product) => (
+                      <ProductCard
+                        key={product._id}
+                        product={product}
+                        onQuickView={(p) => setSelectedProduct(p)}
+                      />
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* 2. PRINT SECTION */}
+              {printProducts.length > 0 && (
+                <section>
+                  <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-luxury-charcoal/10 pb-4 mb-8 gap-2">
+                    <div>
+                      <span className="text-[9px] md:text-[10px] uppercase tracking-[0.25em] text-luxury-champagne font-semibold block">
+                        Signature Motifs
+                      </span>
+                      <h2 className="font-serif text-xl md:text-2xl text-luxury-charcoal uppercase tracking-wider font-light mt-1">
+                        Print Collection
+                      </h2>
+                      <p className="text-[11px] text-luxury-muted uppercase tracking-luxury mt-1 font-light">
+                        Vibrant watercolor botanicals, abstract geometries & contemporary sets
+                      </p>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <span className="text-[11px] uppercase tracking-luxury text-luxury-muted font-medium">
+                        {printProducts.length} {printProducts.length === 1 ? 'Creation' : 'Creations'}
+                      </span>
+                      <button
+                        onClick={() => updateFilter('collection', 'print-collection')}
+                        className="text-[10px] uppercase tracking-widest text-luxury-charcoal font-semibold border-b border-luxury-charcoal/30 hover:border-luxury-charcoal pb-0.5"
+                      >
+                        View Only Printed &rarr;
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+                    {printProducts.map((product) => (
+                      <ProductCard
+                        key={product._id}
+                        product={product}
+                        onQuickView={(p) => setSelectedProduct(p)}
+                      />
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* 3. OTHER CREATIONS (Fallback) */}
+              {otherProducts.length > 0 && (
+                <section>
+                  <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-luxury-charcoal/10 pb-4 mb-8 gap-2">
+                    <div>
+                      <h2 className="font-serif text-xl md:text-2xl text-luxury-charcoal uppercase tracking-wider font-light">
+                        More Atelier Creations
+                      </h2>
+                    </div>
+                    <div className="text-[11px] uppercase tracking-luxury text-luxury-muted font-medium">
+                      {otherProducts.length} {otherProducts.length === 1 ? 'Creation' : 'Creations'}
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+                    {otherProducts.map((product) => (
+                      <ProductCard
+                        key={product._id}
+                        product={product}
+                        onQuickView={(p) => setSelectedProduct(p)}
+                      />
+                    ))}
+                  </div>
+                </section>
+              )}
+
             </div>
           )}
         </main>
@@ -316,6 +559,24 @@ export default function Shop() {
               </button>
             </div>
 
+            {/* Mobile Collections */}
+            <div className="mb-6">
+              <h4 className="text-[10px] uppercase tracking-luxury text-luxury-charcoal font-semibold mb-3">Collection / Section</h4>
+              <div className="flex flex-wrap gap-2">
+                {collectionsList.map((col) => (
+                  <button
+                    key={col.label}
+                    onClick={() => updateFilter('collection', isCollectionActive(col.value) && col.value ? '' : col.value)}
+                    className={`px-3 py-1.5 border text-xs tracking-wide rounded-sm transition-colors ${
+                      isCollectionActive(col.value) ? 'bg-luxury-charcoal text-white' : 'border-luxury-charcoal/10 bg-white text-luxury-charcoal'
+                    }`}
+                  >
+                    {col.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
             {/* Mobile Categories */}
             <div className="mb-6">
               <h4 className="text-[10px] uppercase tracking-luxury text-luxury-charcoal font-semibold mb-3">Category</h4>
@@ -324,8 +585,9 @@ export default function Shop() {
                   <button
                     key={cat}
                     onClick={() => updateFilter('category', currentCategory === cat ? '' : cat)}
-                    className={`px-3 py-1.5 border text-xs tracking-wide rounded-sm transition-colors ${currentCategory === cat ? 'bg-luxury-charcoal text-white' : 'border-luxury-charcoal/10 bg-white text-luxury-charcoal'
-                      }`}
+                    className={`px-3 py-1.5 border text-xs tracking-wide rounded-sm transition-colors ${
+                      currentCategory === cat ? 'bg-luxury-charcoal text-white' : 'border-luxury-charcoal/10 bg-white text-luxury-charcoal'
+                    }`}
                   >
                     {cat}
                   </button>
@@ -341,8 +603,9 @@ export default function Shop() {
                   <button
                     key={size}
                     onClick={() => updateFilter('size', currentSize === size ? '' : size)}
-                    className={`border text-xs font-semibold w-8 h-8 flex items-center justify-center rounded-sm ${currentSize === size ? 'bg-luxury-charcoal text-white' : 'border-luxury-charcoal/10 bg-white'
-                      }`}
+                    className={`border text-xs font-semibold w-8 h-8 flex items-center justify-center rounded-sm ${
+                      currentSize === size ? 'bg-luxury-charcoal text-white' : 'border-luxury-charcoal/10 bg-white'
+                    }`}
                   >
                     {size}
                   </button>
@@ -363,8 +626,9 @@ export default function Shop() {
                       if (range.max) params.set('maxPrice', range.max); else params.delete('maxPrice');
                       setSearchParams(params);
                     }}
-                    className={`block text-xs text-left w-full py-1.5 transition-colors ${isPriceActive(range) ? 'text-luxury-champagne font-semibold' : 'text-luxury-muted'
-                      }`}
+                    className={`block text-xs text-left w-full py-1.5 transition-colors ${
+                      isPriceActive(range) ? 'text-luxury-champagne font-semibold' : 'text-luxury-muted'
+                    }`}
                   >
                     {range.label}
                   </button>
