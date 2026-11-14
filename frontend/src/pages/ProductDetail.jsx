@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Heart, Plus, Minus, Star, ChevronDown, ChevronUp, ShieldCheck, HelpCircle } from 'lucide-react';
+import { Heart, Plus, Minus, Star, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, ShieldCheck, HelpCircle } from 'lucide-react';
 import { useCart } from '../context/CartContext.jsx';
 import { useWishlist } from '../context/WishlistContext.jsx';
 import api from '../utils/api.js';
@@ -138,6 +138,18 @@ export default function ProductDetail() {
     }
   };
 
+  const prevImage = (e) => {
+    e?.stopPropagation?.();
+    if (!product?.images?.length) return;
+    setActiveImageIdx((prev) => (prev - 1 + product.images.length) % product.images.length);
+  };
+
+  const nextImage = (e) => {
+    e?.stopPropagation?.();
+    if (!product?.images?.length) return;
+    setActiveImageIdx((prev) => (prev + 1) % product.images.length);
+  };
+
   return (
     <div className="bg-atelier-seafoam/50 min-h-screen font-sans pb-20">
 
@@ -147,9 +159,9 @@ export default function ProductDetail() {
         {/* LEFT PANEL: GALLERY WITH ZOOM VIEW */}
         <div className="space-y-4">
 
-          {/* Main Visual Window */}
+          {/* Main Visual Window with Multi-Angle Controls */}
           <div
-            className="relative aspect-[4/5] bg-luxury-beige rounded-sm overflow-hidden border border-luxury-charcoal/5 cursor-zoom-in"
+            className="group relative aspect-[4/5] bg-luxury-beige rounded-sm overflow-hidden border border-luxury-charcoal/5 cursor-zoom-in"
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           >
@@ -162,24 +174,63 @@ export default function ProductDetail() {
             {/* Flat Image */}
             <img
               src={product.images[activeImageIdx]}
-              alt={product.name}
+              alt={`${product.name} view ${activeImageIdx + 1}`}
               className="w-full h-full object-cover select-none"
             />
+
+            {/* Multi-angle Prev / Next overlay navigation buttons */}
+            {product.images && product.images.length > 1 && (
+              <>
+                <button
+                  type="button"
+                  onClick={prevImage}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/85 hover:bg-white text-luxury-charcoal flex items-center justify-center backdrop-blur-sm shadow-md transition-all duration-200 z-20 hover:scale-105 opacity-80 group-hover:opacity-100"
+                  aria-label="Previous view"
+                >
+                  <ChevronLeft size={18} />
+                </button>
+                <button
+                  type="button"
+                  onClick={nextImage}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/85 hover:bg-white text-luxury-charcoal flex items-center justify-center backdrop-blur-sm shadow-md transition-all duration-200 z-20 hover:scale-105 opacity-80 group-hover:opacity-100"
+                  aria-label="Next view"
+                >
+                  <ChevronRight size={18} />
+                </button>
+
+                {/* View counter pill */}
+                <div className="absolute bottom-3 right-3 bg-black/65 text-luxury-ivory text-[10px] tracking-widest font-mono uppercase px-2.5 py-1 rounded-full backdrop-blur-sm z-20 select-none shadow-sm">
+                  View {activeImageIdx + 1} of {product.images.length}
+                </div>
+              </>
+            )}
           </div>
 
-          {/* Thumbnails row (only if multiple images) */}
+          {/* Thumbnails row (multi-view angle selector) */}
           {product.images && product.images.length > 1 && (
-            <div className="flex space-x-3 overflow-x-auto no-scrollbar">
-              {product.images.map((img, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setActiveImageIdx(idx)}
-                  className={`flex-none w-20 aspect-[4/5] bg-luxury-beige rounded-sm overflow-hidden border transition-all ${activeImageIdx === idx ? 'border-luxury-charcoal shadow-sm' : 'border-transparent opacity-70 hover:opacity-100'
+            <div className="relative">
+              <div className="flex space-x-2.5 overflow-x-auto py-1 scrollbar-thin">
+                {product.images.map((img, idx) => (
+                  <button
+                    key={idx}
+                    type="button"
+                    onClick={() => setActiveImageIdx(idx)}
+                    className={`flex-none w-16 sm:w-20 aspect-[4/5] bg-luxury-beige rounded-sm overflow-hidden border-2 transition-all ${
+                      activeImageIdx === idx
+                        ? 'border-luxury-charcoal shadow-sm ring-1 ring-luxury-charcoal/20 opacity-100'
+                        : 'border-transparent opacity-60 hover:opacity-100'
                     }`}
-                >
-                  <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
-                </button>
-              ))}
+                    aria-label={`Switch to angle ${idx + 1}`}
+                  >
+                    <img
+                      src={img}
+                      alt={`${product.name} angle ${idx + 1}`}
+                      className="w-full h-full object-cover select-none"
+                      loading="lazy"
+                    />
+                  </button>
+                ))}
+              </div>
             </div>
           )}
 

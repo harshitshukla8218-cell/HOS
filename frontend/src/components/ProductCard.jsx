@@ -126,7 +126,7 @@ export default function ProductCard({ product, onQuickView }) {
 
       {/* Info details */}
       <div className="pt-4 pb-2 flex flex-col flex-1">
-        <Link to={`/products/${product.slug}`} className="hover:text-luxury-champagne transition-colors">
+        <Link to={`/products/${product.slug}`} className="hover:text-luxury-champagne transition-colors" title={product.name}>
           <h3 className="font-serif text-sm font-medium tracking-wide text-luxury-charcoal truncate">
             {product.name}
           </h3>
@@ -155,11 +155,11 @@ export default function ProductCard({ product, onQuickView }) {
 
         {/* Colors dots / labels */}
         {product.colors && product.colors.length > 0 && (
-          <div className="flex items-center space-x-1.5 mt-2.5">
+          <div className="flex flex-wrap items-center gap-1.5 mt-2.5">
             {product.colors.map(col => (
               <span 
                 key={col} 
-                className="text-[9px] text-luxury-muted border border-luxury-charcoal/5 px-1.5 py-0.5 rounded-sm capitalize bg-luxury-beige/30"
+                className="text-[9px] text-luxury-muted border border-luxury-charcoal/5 px-1.5 py-0.5 rounded-sm capitalize bg-luxury-beige/30 whitespace-nowrap"
               >
                 {col}
               </span>

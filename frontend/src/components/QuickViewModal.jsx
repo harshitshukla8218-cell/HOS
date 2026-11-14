@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { X, Heart, ShieldCheck } from 'lucide-react';
+import { X, Heart, ShieldCheck, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useCart } from '../context/CartContext.jsx';
 import { useWishlist } from '../context/WishlistContext.jsx';
 
@@ -10,8 +10,9 @@ export default function QuickViewModal({ product, onClose }) {
   const { addToCart } = useCart();
   const { toggleWishlist, isInWishlist } = useWishlist();
 
+  const [activeImageIdx, setActiveImageIdx] = useState(0);
   const [selectedSize, setSelectedSize] = useState(product.sizes?.[0] || '');
-  const [selectedColor, setSelectedColor] = useState(product.colors[0] || 'Warm Ivory');
+  const [selectedColor, setSelectedColor] = useState(product.colors?.[0] || 'Default');
   const [qty, setQty] = useState(1);
 
   const isFav = isInWishlist(product._id);
@@ -23,39 +24,90 @@ export default function QuickViewModal({ product, onClose }) {
     onClose();
   };
 
+  const prevImage = (e) => {
+    e?.stopPropagation?.();
+    if (!product?.images?.length) return;
+    setActiveImageIdx((prev) => (prev - 1 + product.images.length) % product.images.length);
+  };
+
+  const nextImage = (e) => {
+    e?.stopPropagation?.();
+    if (!product?.images?.length) return;
+    setActiveImageIdx((prev) => (prev + 1) % product.images.length);
+  };
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 font-sans">
       {/* Backdrop */}
-      <div className="fixed inset-0 bg-black/50 backdrop-blur-sm" onClick={onClose}></div>
+      <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose}></div>
 
       {/* Modal Content Card */}
-      <div className="relative bg-luxury-ivory w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 p-6 md:p-8 shadow-2xl border border-luxury-charcoal/5 z-10 rounded-sm overflow-y-auto max-h-[90vh] md:max-h-none">
+      <div className="relative bg-luxury-ivory w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 p-6 md:p-8 shadow-2xl border border-luxury-charcoal/5 z-10 rounded-sm overflow-y-auto max-h-[92vh]">
 
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-6 right-6 text-luxury-charcoal/70 hover:text-luxury-charcoal z-20"
+          className="absolute top-5 right-5 text-luxury-charcoal/70 hover:text-luxury-charcoal p-1.5 rounded-full hover:bg-black/5 transition-colors z-20"
           aria-label="Close details"
         >
-          <X strokeWidth={1} size={26} />
+          <X strokeWidth={1.5} size={22} />
         </button>
 
-        {/* Left Side: Product Image Carousel / Display */}
-        <div className="space-y-4 pr-0 md:pr-6">
-          <div className="aspect-[4/5] w-full overflow-hidden bg-luxury-beige rounded-sm">
+        {/* Left Side: Product Image Display with Multi-Angle View */}
+        <div className="space-y-3 pr-0 md:pr-6">
+          <div className="group relative aspect-[4/5] w-full overflow-hidden bg-luxury-beige rounded-sm border border-luxury-charcoal/5">
             <img
-              src={product.images[0]}
-              alt={product.name}
-              className="w-full h-full object-cover"
+              src={product.images[activeImageIdx] || product.images[0]}
+              alt={`${product.name} view ${activeImageIdx + 1}`}
+              className="w-full h-full object-cover select-none"
             />
+
+            {product.images && product.images.length > 1 && (
+              <>
+                <button
+                  type="button"
+                  onClick={prevImage}
+                  className="absolute left-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/85 hover:bg-white text-luxury-charcoal flex items-center justify-center backdrop-blur-sm shadow-md transition-all z-20 hover:scale-105"
+                  aria-label="Previous view"
+                >
+                  <ChevronLeft size={16} />
+                </button>
+                <button
+                  type="button"
+                  onClick={nextImage}
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/85 hover:bg-white text-luxury-charcoal flex items-center justify-center backdrop-blur-sm shadow-md transition-all z-20 hover:scale-105"
+                  aria-label="Next view"
+                >
+                  <ChevronRight size={16} />
+                </button>
+
+                <div className="absolute bottom-2.5 right-2.5 bg-black/65 text-luxury-ivory text-[9px] tracking-widest font-mono uppercase px-2 py-0.5 rounded-full backdrop-blur-sm z-20 select-none">
+                  {activeImageIdx + 1} / {product.images.length}
+                </div>
+              </>
+            )}
           </div>
-          <div className="grid grid-cols-2 gap-3">
-            {product.images.slice(0, 2).map((img, idx) => (
-              <div key={idx} className="aspect-[4/5] overflow-hidden bg-luxury-beige rounded-sm">
-                <img src={img} alt={`Angle ${idx + 1}`} className="w-full h-full object-cover" />
-              </div>
-            ))}
-          </div>
+
+          {/* Multi-angle thumbnails */}
+          {product.images && product.images.length > 1 && (
+            <div className="flex space-x-2 overflow-x-auto pb-1 scrollbar-thin">
+              {product.images.map((img, idx) => (
+                <button
+                  key={idx}
+                  type="button"
+                  onClick={() => setActiveImageIdx(idx)}
+                  className={`flex-none w-14 aspect-[4/5] overflow-hidden bg-luxury-beige rounded-sm border-2 transition-all ${
+                    activeImageIdx === idx
+                      ? 'border-luxury-charcoal shadow-sm ring-1 ring-luxury-charcoal/20 opacity-100'
+                      : 'border-transparent opacity-60 hover:opacity-100'
+                  }`}
+                  aria-label={`View angle ${idx + 1}`}
+                >
+                  <img src={img} alt={`Angle ${idx + 1}`} className="w-full h-full object-cover select-none" loading="lazy" />
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Right Side: Product Details */}

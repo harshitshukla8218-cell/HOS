@@ -4,6 +4,12 @@ import db from './db.js';
 async function seed() {
   console.log("Seeding HOS Database...");
 
+  // Preserve any verified catalog products if already populated
+  let existingProducts = [];
+  try {
+    existingProducts = await db.products.find({});
+  } catch (e) {}
+
   // Reset database first
   await db.reset();
 
@@ -237,7 +243,8 @@ async function seed() {
   ];
 
   const seededProducts = [];
-  for (const product of products) {
+  const catalogList = (existingProducts && existingProducts.length >= 30) ? existingProducts : products;
+  for (const product of catalogList) {
     const item = await db.products.insertOne(product);
     seededProducts.push(item);
   }

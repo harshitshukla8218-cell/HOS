@@ -41,18 +41,25 @@
   ],
   "products": [
     {
-      "_id": "hos-emb-01",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Ivory Embroidered Co-ord Set",
-      "slug": "ivory-embroidered-co-ord-set",
-      "price": 13500,
+      "_id": "hos-prod-01",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Cobalt Blue Abstract Print Co-ord Set",
+      "slug": "cobalt-blue-abstract-print-co-ord-set",
+      "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-01/primary.png"
+        "/images/catalog/hos-prod-01/788B2B4B-BE28-40D4-A072-E6E6E20E0A67.png",
+        "/images/catalog/hos-prod-01/DAD0378E-71B3-464F-9308-8C784A210975.png",
+        "/images/catalog/hos-prod-01/062D0961-FD2D-4C43-B4B8-66FD5CA32F6D.png",
+        "/images/catalog/hos-prod-01/26A26CC6-D5AA-4F92-AF7B-8F2105065F65.png",
+        "/images/catalog/hos-prod-01/9C2FC821-12A4-40C0-89D8-9549EF1A4240.png",
+        "/images/catalog/hos-prod-01/C544B2FC-6872-483D-9072-79D111E094FA.png",
+        "/images/catalog/hos-prod-01/F996B1EF-EB90-40DF-AEF2-678870C1682D.png",
+        "/images/catalog/hos-prod-01/FEED5D1C-A9EC-484D-951F-DB935F9F91E2.png"
       ],
-      "description": "An elegant off-white co-ord featuring delicate botanical detailing on the tailored top and fluid wide-leg trousers. A refined choice for festive lunches and occasion dressing.",
-      "details": "Collection: Embroidery Collection (Look 01)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-linen blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Off White\nStyle / Reference Code: 15003",
+      "description": "A striking cobalt blue abstract-print shirt paired with matching fluid wide-leg trousers. Saturated pixel-wash shades and an easy silhouette create an expressive resort-ready look with tassel cuff accents.",
+      "details": "Collection: Print Collection (Look 01)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Cobalt Blue\nFeatures: Beaded tassel cuff details, back tie-waist sash, elasticated high-waist fluid trousers.",
       "sizes": [
         "XS",
         "S",
@@ -62,39 +69,51 @@
         "XXL"
       ],
       "colors": [
-        "Off White"
+        "Cobalt Blue"
       ],
       "category": "Co-ords",
       "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
+        "Resort",
         "Daytime",
-        "Festive",
-        "Evening"
+        "Casual Luxury"
       ],
-      "inventory": 20,
+      "inventory": 25,
       "rating": 4.9,
-      "sku": "15003",
+      "sku": "PRT-15001",
       "bestseller": true,
       "newArrival": true,
       "featured": true
     },
     {
-      "_id": "hos-emb-02",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Beige Floral Co-ord Set",
-      "slug": "beige-floral-co-ord-set",
-      "price": 12500,
+      "_id": "hos-prod-02",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Multicolour Gingham & Floral Print Co-ord Set",
+      "slug": "multicolour-gingham-floral-print-co-ord-set",
+      "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-02/primary.png"
+        "/images/catalog/hos-prod-02/08061BBE-5A40-4EBF-ADE3-7EFCA3D2236E.png",
+        "/images/catalog/hos-prod-02/1DE402BC-8998-4938-8530-A9B6D1B16C7E.png",
+        "/images/catalog/hos-prod-02/795249761_1353588146584980_2068745003035401667_n.webp",
+        "/images/catalog/hos-prod-02/795776047_2949058568801974_651360933031757058_n.webp",
+        "/images/catalog/hos-prod-02/819032027_2404350807038430_8416067267350066643_n.webp",
+        "/images/catalog/hos-prod-02/819742812_3570125693147816_2630358683103288624_n.webp",
+        "/images/catalog/hos-prod-02/836841936_1044727778585334_3217472408387065615_n.webp",
+        "/images/catalog/hos-prod-02/837091267_1413928290147324_8366949403373383948_n.webp",
+        "/images/catalog/hos-prod-02/839180088_2016963538964596_2695606320603381546_n.webp",
+        "/images/catalog/hos-prod-02/840023177_1119185243788954_433840885230629191_n.webp",
+        "/images/catalog/hos-prod-02/AF794238-6AF4-4CEA-809F-070A0E9C35FD.png",
+        "/images/catalog/hos-prod-02/IMG_7901.PNG",
+        "/images/catalog/hos-prod-02/IMG_7902.PNG"
       ],
-      "description": "A softly structured beige tunic and relaxed wide-leg trouser set, finished with understated decorative accents. Effortless elegance for day-to-evening wear.",
-      "details": "Collection: Embroidery Collection (Look 02)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Beige",
+      "description": "A playful coordinated set with vibrant painterly print, relaxed top and matching gingham trousers. Finished with floral and color-block accents for cheerful day-to-evening occasion wear.",
+      "details": "Collection: Print Collection (Look 02)\nDress Type: Shirt & trouser co-ord\nFabric: Rayon-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Coral Pink, Multi\nFeatures: Point collar, button cuffs, fluid wide-leg gingham pants.",
       "sizes": [
         "XS",
         "S",
@@ -104,39 +123,114 @@
         "XXL"
       ],
       "colors": [
-        "Beige"
+        "Coral Pink",
+        "Multi"
       ],
       "category": "Co-ords",
       "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
+        "Brunch",
         "Daytime",
-        "Festive",
-        "Evening"
+        "Weekend"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-02",
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15002",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-03",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Sky Blue Embroidered Floral Bib Co-ord Set",
+      "slug": "sky-blue-embroidered-floral-bib-co-ord-set",
+      "price": 12500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-03/1820224F-F237-46F1-9EA3-AC7C58735F58.png",
+        "/images/catalog/hos-prod-03/B744AFAC-C55C-4823-89F1-F6C0D46BF3DF.png",
+        "/images/catalog/hos-prod-03/758591146_1572856451053133_2422367872188571395_n.png",
+        "/images/catalog/hos-prod-03/795523649_3109982599190453_7442226434253023993_n.webp",
+        "/images/catalog/hos-prod-03/795898016_1549976936887541_7193076023082648503_n.webp",
+        "/images/catalog/hos-prod-03/796335111_1110648004874100_3847521533422383821_n.webp",
+        "/images/catalog/hos-prod-03/797143202_1643170603876459_2144424774694511425_n.webp",
+        "/images/catalog/hos-prod-03/811748901_2163489134382412_3602746854515652175_n.webp",
+        "/images/catalog/hos-prod-03/811748915_3070588366606522_1003431174928816891_n.webp",
+        "/images/catalog/hos-prod-03/811902691_2237491403706620_132233369663508473_n.webp",
+        "/images/catalog/hos-prod-03/818195721_1801379727530562_6457924127129043842_n.webp",
+        "/images/catalog/hos-prod-03/819108019_1891080648538522_1359701730890387332_n.webp",
+        "/images/catalog/hos-prod-03/819164880_1070336635626053_1917242351525539317_n.webp",
+        "/images/catalog/hos-prod-03/DA7619F4-6B64-47A7-83AF-4FB911F1975B.png",
+        "/images/catalog/hos-prod-03/E5949BF4-67F7-4D8A-9D0E-3EC3205920C7.png"
+      ],
+      "description": "A light-toned coordinated outfit featuring a decorative multicolored floral bib-style embroidery and relaxed striped trousers with scalloped lace hem trimming.",
+      "details": "Collection: Print Collection (Look 04)\nDress Type: Shirt & trouser co-ord\nFabric: Georgette overlay + crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sky Blue, White\nStyle / Reference Code: 15010\nFeatures: Cross-stitch floral chest bouquet, delicate sheer gingham check, tiered lace hem.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Sky Blue",
+        "White"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Festive",
+        "Daytime",
+        "Garden Party"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "15010",
       "bestseller": false,
       "newArrival": true,
       "featured": true
     },
     {
-      "_id": "hos-emb-03",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "White Floral Long Jacket Set",
-      "slug": "white-floral-long-jacket-set",
-      "price": 13500,
+      "_id": "hos-prod-04",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Multicolour Embroidered Sheer Shirt Set",
+      "slug": "multicolour-embroidered-sheer-shirt-set",
+      "price": 15500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-03/primary.png"
+        "/images/catalog/hos-prod-04/059E65F1-1AA2-4BDF-A9FC-9FBEC3AFF83C.png",
+        "/images/catalog/hos-prod-04/7DC2E42E-D749-4215-9C42-290A962F7D26.png",
+        "/images/catalog/hos-prod-04/1187968D-EA5B-4732-B09E-491CDE3D214C.png",
+        "/images/catalog/hos-prod-04/6AF2BDCD-2073-4C0B-9D37-1DF6DEC9EEFC.png",
+        "/images/catalog/hos-prod-04/795898021_28580268201604023_5486711983472211160_n.webp",
+        "/images/catalog/hos-prod-04/796316028_2476259636198459_4835951579313989995_n.webp",
+        "/images/catalog/hos-prod-04/797339529_1757267455378737_2684683800063671309_n.webp",
+        "/images/catalog/hos-prod-04/808973746_1091195293648562_2862050065617853268_n.webp",
+        "/images/catalog/hos-prod-04/809076964_28306823768928186_1146001524439852034_n.webp",
+        "/images/catalog/hos-prod-04/809184680_2447969525695758_8775487954641961865_n.webp",
+        "/images/catalog/hos-prod-04/809184680_911142938428809_6618174039913805540_n.webp",
+        "/images/catalog/hos-prod-04/809211740_1703445977384770_1538915065060557628_n.webp",
+        "/images/catalog/hos-prod-04/809415943_1752652085885890_4988691158818074256_n.webp",
+        "/images/catalog/hos-prod-04/818261679_917671557775893_1178644551096152451_n.webp",
+        "/images/catalog/hos-prod-04/9B9E28D2-6C58-4ABF-8FD6-23334A4B09EC.png",
+        "/images/catalog/hos-prod-04/D00D1131-747D-4E85-9A75-CDC32380D398.png",
+        "/images/catalog/hos-prod-04/DB0D209B-051B-48DA-A25E-5193B689295B.png",
+        "/images/catalog/hos-prod-04/ED4F6633-CA1F-44EF-A829-54CCB8D49258.png"
       ],
-      "description": "A graceful white longline layer with scattered floral motifs, paired with streamlined trousers. Ideal for a polished daytime celebration.",
-      "details": "Collection: Embroidery Collection (Look 03)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White",
+      "description": "A pristine white sheer statement shirt brightened with multicolored pixelated cross-stitch floral embellishment and softly flowing ivory trousers. A polished yet playful occasion set.",
+      "details": "Collection: Embroidery Collection (Look 11)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend with silk-organza finish\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Ivory, Multi\nItem Options: Only shirt: Rs. 7,995\nFeatures: Multicolour geometric needlework, French cuffs with contrast stitch, pleated wide-leg trousers.",
       "sizes": [
         "XS",
         "S",
@@ -146,39 +240,416 @@
         "XXL"
       ],
       "colors": [
+        "Ivory",
+        "Multi"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Embroidery Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Evening",
+        "Cocktail",
+        "Festive"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "EMB-15011",
+      "bestseller": true,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-05",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Sky Blue & Blush Sheer Floral Co-ord",
+      "slug": "sky-blue-blush-sheer-floral-co-ord",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-05/4EE09B15-05C3-41C4-A2D9-C2B5B6A13E86.png",
+        "/images/catalog/hos-prod-05/149866EF-16F5-4A4C-BD64-0C03E51CD038.png",
+        "/images/catalog/hos-prod-05/4327319C-E447-4CF3-B6D9-E1766A387AF0.png",
+        "/images/catalog/hos-prod-05/796238542_40195998879987160_7034523700904634629_n.webp",
+        "/images/catalog/hos-prod-05/796335119_2579953949169664_8628855681452461544_n.webp",
+        "/images/catalog/hos-prod-05/797053814_2276057723244586_2372798581379906709_n.webp",
+        "/images/catalog/hos-prod-05/837194402_1471290191589033_8612435709583241296_n.webp",
+        "/images/catalog/hos-prod-05/838159078_1130469379409295_7732172217895862842_n.webp",
+        "/images/catalog/hos-prod-05/838579468_1724637831948368_2005332548793698553_n.webp",
+        "/images/catalog/hos-prod-05/839618237_2939664606388472_4922182818454437922_n.webp",
+        "/images/catalog/hos-prod-05/840601111_2152926065323940_8034863659144197111_n.webp",
+        "/images/catalog/hos-prod-05/841208986_4044635009006597_3710706164188273790_n.webp"
+      ],
+      "description": "An airy sky-blue and blush ensemble with vibrant placement florals on a relaxed sheer tunic and softly gathered sheer palazzo trousers. A fresh, poetic statement for daytime occasions.",
+      "details": "Collection: Print Collection (Look 03)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sky Blue, Blush Pink, White\nItem Options: Only shirt: Rs. 4,950\nFeatures: Sheer overlayer, smocked cuff detail, contrast pink pick-stitch collar, wide palazzo bottoms.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Sky Blue",
+        "Blush Pink",
+        "White"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Daytime",
+        "Brunch",
+        "Resort"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15003",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-06",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Blue Botanical Striped Shirt & Trouser Set",
+      "slug": "blue-botanical-striped-shirt-trouser-set",
+      "price": 8500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-06/35E7F869-BDB2-4DDF-A0D9-5023F30B8A4C.png",
+        "/images/catalog/hos-prod-06/18E55A8F-4A17-42AD-8F72-E35CEEF65D2F.png",
+        "/images/catalog/hos-prod-06/1CB21237-C98F-41EE-AC54-F27DF094CBB1.png",
+        "/images/catalog/hos-prod-06/819767530_954776530385704_199998387584422654_n.webp",
+        "/images/catalog/hos-prod-06/821523646_1112368074556082_87371787702926072_n.webp",
+        "/images/catalog/hos-prod-06/821562010_3124986191191229_4542407734264068428_n.webp",
+        "/images/catalog/hos-prod-06/89D9A75C-DF2F-4372-B764-854562D4A0AB.png",
+        "/images/catalog/hos-prod-06/93BA18F0-881E-4051-B44C-69AF178D0546.png"
+      ],
+      "description": "A crisp sky-blue candy-striped shirt combining rich botanical rose accents with a relaxed fluid trouser silhouette. Designed for effortless modern styling.",
+      "details": "Collection: Print Collection (Look 05)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sky Blue, White\nStyle / Reference Code: 15008\nFeatures: Classic striped weave, floral placement graphics, turn-up cuffs, wide pleated trousers.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Sky Blue",
+        "White"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Casual Luxury",
+        "Daytime",
+        "Travel"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "15008",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-07",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Ivory Botanical Embroidered Shirt Set",
+      "slug": "ivory-botanical-embroidered-shirt-set",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-07/0AD7CF69-84F9-47BD-BD08-DC54A266C5A9.png",
+        "/images/catalog/hos-prod-07/81FEFCA6-CA69-4C86-9316-DB453D5FECF1.png",
+        "/images/catalog/hos-prod-07/245D86F7-7E1E-4487-8E24-71EA75AA0A51.png",
+        "/images/catalog/hos-prod-07/2DA9FCD0-3987-40DA-BE94-1D8E74141F87.png",
+        "/images/catalog/hos-prod-07/819055751_1434039895361611_22622320561313148_n.webp",
+        "/images/catalog/hos-prod-07/820439101_2320183371852459_5150387058456861532_n.webp",
+        "/images/catalog/hos-prod-07/821523347_2336176923791931_130439360800891181_n.webp",
+        "/images/catalog/hos-prod-07/821523419_1628301748732319_6000625514957259817_n.webp",
+        "/images/catalog/hos-prod-07/98D38D1F-63B8-4D85-BB51-E1146F1F52E3.png",
+        "/images/catalog/hos-prod-07/9B8635E0-D57A-4F9A-B046-99CB8C9A1FC6.png",
+        "/images/catalog/hos-prod-07/C0085E29-E645-432F-A6AB-64260DBAFC0D.png"
+      ],
+      "description": "A crisp ivory button-front shirt featuring contrast green blanket stitch trims and subtle blue botanical placements, styled with flowing coordinated trousers.",
+      "details": "Collection: Embroidery Collection (Look 14)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-linen blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White, Ivory\nItem Options: Only shirt: Rs. 5,995\nFeatures: Hand-embroidered collar trim, pixel floral motifs, tailored wide-leg trousers.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Ivory",
         "White"
       ],
       "category": "Co-ords",
       "collections": [
         "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
         "Daytime",
-        "Festive",
-        "Evening"
+        "Elevated Workwear",
+        "Brunch"
       ],
-      "inventory": 20,
+      "inventory": 25,
       "rating": 4.9,
-      "sku": "HOS-EMB-03",
+      "sku": "EMB-15014",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-prod-08",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Beige Tailored Floral Blazer Co-ord Set",
+      "slug": "beige-tailored-floral-blazer-co-ord-set",
+      "price": 12500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-08/walkin_exact_design.png",
+        "/images/catalog/hos-prod-08/BE9330E4-ED4D-439B-BFCE-2EA4DEBD7C0C.png",
+        "/images/catalog/hos-prod-08/818995253_2514309062370558_8103533738705482621_n.webp",
+        "/images/catalog/hos-prod-08/819621206_1583412323256428_820934970703842496_n.webp",
+        "/images/catalog/hos-prod-08/821523442_1079523201719502_6393848483484227631_n.webp",
+        "/images/catalog/hos-prod-08/821523484_3296281514094325_1803227458467390134_n.webp",
+        "/images/catalog/hos-prod-08/E94E0485-9D3E-4405-AC61-633B6B495B09.png",
+        "/images/catalog/hos-prod-08/back_no_pocket_no_belt.png",
+        "/images/catalog/hos-prod-08/front_collar_design.png",
+        "/images/catalog/hos-prod-08/sitting_nude_sandal.png"
+      ],
+      "description": "A softly structured beige lapel blazer and relaxed wide-leg trouser set, finished with understated floral cross-stitch decorative accents along the front lapels and hem.",
+      "details": "Collection: Embroidery Collection (Look 02)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Beige\nFeatures: Notch lapel, tailored closure, blanket-stitch edging, fluid wide-leg trouser.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige",
+        "Natural"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Embroidery Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Formal",
+        "Cocktail",
+        "Festive Lunches"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "EMB-15002",
       "bestseller": true,
       "newArrival": true,
       "featured": true
     },
     {
-      "_id": "hos-emb-04",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "White Blue Floral Co-ord Set",
-      "slug": "white-blue-floral-co-ord-set",
-      "price": 15500,
+      "_id": "hos-prod-09",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Ivory Border Embroidered Tunic Co-ord Set",
+      "slug": "ivory-border-embroidered-tunic-co-ord-set",
+      "price": 13500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-04/primary.png"
+        "/images/catalog/hos-prod-09/lean1.png",
+        "/images/catalog/hos-prod-09/side_look.png",
+        "/images/catalog/hos-prod-09/818977469_1762797488312369_2884792197982641490_n.webp",
+        "/images/catalog/hos-prod-09/819079553_1642062477494230_7815431149514203618_n.webp",
+        "/images/catalog/hos-prod-09/821523286_1246854237597479_4212403298683359830_n.webp",
+        "/images/catalog/hos-prod-09/821523291_1588212703039560_8159763099989746207_n.webp",
+        "/images/catalog/hos-prod-09/825279906_1446969203959544_1613350937502182026_n.webp",
+        "/images/catalog/hos-prod-09/back_look.png",
+        "/images/catalog/hos-prod-09/detail_closeup.png",
+        "/images/catalog/hos-prod-09/lean2.png",
+        "/images/catalog/hos-prod-09/pants_clip_hanger_exact.png",
+        "/images/catalog/hos-prod-09/shirt_back_wire.png",
+        "/images/catalog/hos-prod-09/shirt_wire_hanger.png"
       ],
-      "description": "A delicate white ensemble elevated by blue floral detailing on a light, flowing outer layer. Designed for a fresh, sophisticated festive look.",
-      "details": "Collection: Embroidery Collection (Look 04)\nDress Type: Shirt & trouser co-ord\nFabric: Georgette overlay + crepe lining\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White, Blue",
+      "description": "An elegant off-white co-ord featuring delicate botanical pastel geometric detailing on the tailored band-collar top and fluid wide-leg pleated trousers.",
+      "details": "Collection: Embroidery Collection (Look 01)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-linen blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Off White\nStyle / Reference Code: 15003\nFeatures: Band collar, geometric hem embroidery, pleated wide-leg trouser.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Off White",
+        "Ivory"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Embroidery Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Festive",
+        "Occasion",
+        "Daytime"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "15003",
+      "bestseller": true,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-10",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Fuchsia Pink Pleated Trouser & Tunic Set",
+      "slug": "fuchsia-pink-pleated-trouser-tunic-set",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-10/DE97E341-5C96-4F8A-B472-1BEA6BE3A359.png",
+        "/images/catalog/hos-prod-10/C2550D1A-9FA9-4F7C-91D3-518816497545.png",
+        "/images/catalog/hos-prod-10/819103747_1566087387983502_7347691720805130565_n.webp",
+        "/images/catalog/hos-prod-10/819212195_1404364328340737_820776566292275278_n.webp",
+        "/images/catalog/hos-prod-10/819212218_1132621759095247_4123286361365561666_n.webp",
+        "/images/catalog/hos-prod-10/837569938_1021382370913627_7332682066597850422_n.webp",
+        "/images/catalog/hos-prod-10/857370668_1647572756738279_7595804168396558978_n.webp",
+        "/images/catalog/hos-prod-10/858525029_29581758578075579_6363823448502280028_n.webp",
+        "/images/catalog/hos-prod-10/860002852_1567200601829871_5317392307003485330_n.webp"
+      ],
+      "description": "A comfortable and lively coordinated sheer tunic and accordion-pleated trouser set in rich fuchsia pink. Contemporary vibrancy designed for effortless day-to-night glamour.",
+      "details": "Collection: Print Collection (Look 13)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend with pleated georgette\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Fuchsia Pink\nFeatures: Fine accordion pleats, roll-up sleeve cuffs, translucent shirt layer.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Pink",
+        "Fuchsia"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Evening",
+        "Party",
+        "Festive"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15013-PK",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-11",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Beige Floral Print Shirt & Mocha Trouser Set",
+      "slug": "beige-floral-print-shirt-mocha-trouser-set",
+      "price": 8500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-11/11CD29E9-DA4F-48EA-B7A6-12A89AD4C36D.png",
+        "/images/catalog/hos-prod-11/3C7BBDDF-7631-4DA6-95CA-6BCB8071DE41.png",
+        "/images/catalog/hos-prod-11/462406C9-875F-4848-8392-68AFAC5D64CC.png",
+        "/images/catalog/hos-prod-11/836870855_1653854012918240_8212006820839295935_n.webp",
+        "/images/catalog/hos-prod-11/839793954_934230669414664_6070667117594137129_n.webp",
+        "/images/catalog/hos-prod-11/CCAF875E-CF4B-42A8-9B3E-E8958C216CE9.png",
+        "/images/catalog/hos-prod-11/D5B37A58-E4C9-4CC3-89F6-9BBC283ABBE9.png",
+        "/images/catalog/hos-prod-11/E7D3E253-8A0A-4950-82B7-98A9541A9974.png",
+        "/images/catalog/hos-prod-11/FB481945-6324-4DAB-9CC4-18CE4193929E.png"
+      ],
+      "description": "A soft beige printed shirt with colorful botanical motifs, paired with easy draped mocha wide-leg trousers for understated everyday elegance.",
+      "details": "Collection: Print Collection (Look 06)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Beige, Mocha\nStyle / Reference Code: 15006\nFeatures: Grid-pattern weave, pixelated botanical print, fluid draped trousers.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Beige",
+        "Mocha"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Daytime",
+        "Casual Luxury",
+        "Brunch"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "15006",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-prod-12",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "White Rose Embroidered Shirt & Trouser Set",
+      "slug": "white-rose-embroidered-shirt-trouser-set",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-12/07A163AB-F414-42A9-B289-D1263F1B80D3.png",
+        "/images/catalog/hos-prod-12/2FB1534F-D2FA-4EFA-BA3F-1AC72EF9BCF2.png",
+        "/images/catalog/hos-prod-12/3C1DB470-CA0F-4B66-8F3D-36814DC7F96D.png",
+        "/images/catalog/hos-prod-12/4B8B9B09-2963-4B7F-997E-96474398A973.png",
+        "/images/catalog/hos-prod-12/5918E32A-702C-4FF8-8A13-DE4D0ED700F4.png",
+        "/images/catalog/hos-prod-12/6C57EB4F-8060-4277-A7F8-A41688A4FC96.png",
+        "/images/catalog/hos-prod-12/70C02A83-70B5-4BA4-8CE1-2ACF72A9CA42.png",
+        "/images/catalog/hos-prod-12/855522D5-AF71-4168-A9C6-61A3DFADB935.png",
+        "/images/catalog/hos-prod-12/8E4B5E41-9E22-4176-81E3-3BD49A6110CB.png",
+        "/images/catalog/hos-prod-12/FD51CD8A-E85B-4E8C-B57D-ED46D16BD6A3.png"
+      ],
+      "description": "A graceful white coordinated look featuring small red pixelated floral accents, clean tailored shirt silhouette, and relaxed wide-leg trousers.",
+      "details": "Collection: Embroidery Collection (Look 15)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White\nItem Options: Only shirt: Rs. 5,995\nFeatures: Scattered rose embroidery, grid shadow weave, tailored spread collar.",
       "sizes": [
         "XS",
         "S",
@@ -189,39 +660,45 @@
       ],
       "colors": [
         "White",
-        "Blue"
+        "Ivory"
       ],
       "category": "Co-ords",
       "collections": [
         "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
         "Daytime",
-        "Festive",
-        "Evening"
+        "Brunch",
+        "Resort"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-04",
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "EMB-15015",
       "bestseller": false,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-emb-05",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "White Embroidered Shirt Set",
-      "slug": "white-embroidered-shirt-set",
-      "price": 9500,
+      "_id": "hos-prod-13",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "White Sheer Longline Floral Jacket Set",
+      "slug": "white-sheer-longline-floral-jacket-set",
+      "price": 15500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-05/primary.png"
+        "/images/catalog/hos-prod-13/858093683_1112916044873911_8752192377420439912_n.webp",
+        "/images/catalog/hos-prod-13/861359590_2585195331964884_7787357474011265390_n.webp",
+        "/images/catalog/hos-prod-13/863247285_1148146327548106_538192679964614755_n.webp",
+        "/images/catalog/hos-prod-13/863541223_2597284280699349_8474438656498167623_n.webp",
+        "/images/catalog/hos-prod-13/864104397_1113780591545149_2985023406312336041_n.png",
+        "/images/catalog/hos-prod-13/93B809B8-A9AF-4E3C-8B24-A13046A52540.png",
+        "/images/catalog/hos-prod-13/CE1E523F-11C9-4882-AD7C-22C4D74521C6.png"
       ],
-      "description": "A crisp white floral-detail shirt styled with easy-fit trousers. The delicate placement motifs lend this versatile look a contemporary charm.",
-      "details": "Collection: Embroidery Collection (Look 05)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White",
+      "description": "A delicate white ensemble elevated by scattered botanical floral detailing on a light, flowing sheer outer layer. Designed for a fresh, sophisticated festive look.",
+      "details": "Collection: Embroidery Collection (Look 04)\nDress Type: Shirt & trouser co-ord\nFabric: Georgette overlay + crepe lining\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White\nFeatures: Floor-length sheer duster, scattered floral embroidery, coordinated trousers.",
       "sizes": [
         "XS",
         "S",
@@ -231,39 +708,291 @@
         "XXL"
       ],
       "colors": [
+        "White",
+        "Multi"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Embroidery Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Festive",
+        "Evening",
+        "Celebration"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "EMB-15004",
+      "bestseller": true,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-14",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Crimson Abstract Print Co-ord Set",
+      "slug": "crimson-abstract-print-co-ord-set",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-14/AA01B6A0-FACA-4499-B2F4-101B72F2709E.png",
+        "/images/catalog/hos-prod-14/0E6ECCF9-8C28-468E-9457-FF717A8C76F6.png",
+        "/images/catalog/hos-prod-14/666917C0-AC05-4314-B351-C0FCC847E328.png",
+        "/images/catalog/hos-prod-14/8E72DFB4-0B28-4197-B641-B398E8B22BA4.png",
+        "/images/catalog/hos-prod-14/AD25E48D-4A7A-4522-9E74-26F60D92757D.png",
+        "/images/catalog/hos-prod-14/B02F110E-3741-413D-8696-DBCA06B1EB88.png",
+        "/images/catalog/hos-prod-14/E00C5275-6492-4240-8FEC-91E773371500.png",
+        "/images/catalog/hos-prod-14/E88602A8-C556-454A-BE07-3D1BAC510747.png"
+      ],
+      "description": "A bold red-and-dark abstract-print top with coordinated flowing trousers. A high-impact look for gatherings and creative occasion dressing.",
+      "details": "Collection: Print Collection (Look 07)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Red, Charcoal\nFeatures: Abstract splash motif, relaxed button-down shirt, fluid palazzo trouser.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Red",
+        "Charcoal"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Resort",
+        "Party",
+        "Evening"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15007",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-15",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Sunset Orange & Black Poncho Co-ord Set",
+      "slug": "sunset-orange-black-poncho-co-ord-set",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-15/09232EF9-4C30-495F-AE22-DBD6BDF3431D.png",
+        "/images/catalog/hos-prod-15/4DBC7A69-D57B-4093-BF61-1464D5A4D0C8.png",
+        "/images/catalog/hos-prod-15/65E6D1B0-36C3-4CC2-A776-F5B645A411E7.png",
+        "/images/catalog/hos-prod-15/9B0F7B5F-3254-4A99-AD67-4110A008A876.png",
+        "/images/catalog/hos-prod-15/9C93572D-C3ED-4229-B320-86D90C94DDCC.png",
+        "/images/catalog/hos-prod-15/E4CADDB1-2E73-421C-81AB-CA44D93C17FD.png",
+        "/images/catalog/hos-prod-15/F8540C79-3CE6-466D-906F-754D1875D483.png"
+      ],
+      "description": "An oversized artistic-print top in punchy orange and dark tones with delicate fringe tassels, balanced with soft wide-leg ombre trousers.",
+      "details": "Collection: Print Collection (Look 08)\nDress Type: Shirt & trouser co-ord\nFabric: Rayon-viscose\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Black, Orange, Multi\nFeatures: Asymmetric poncho hemline, delicate tassel fringe, fluid dip-dyed trousers.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Orange",
+        "Black",
+        "Multi"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Resort",
+        "Brunch",
+        "Daytime"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15008",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": true
+    },
+    {
+      "_id": "hos-prod-16",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "White Scalloped Cutwork Jacket Set",
+      "slug": "white-scalloped-cutwork-jacket-set",
+      "price": 13500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-16/858155311_1934061097999837_6314727285593055237_n.webp",
+        "/images/catalog/hos-prod-16/3CFF8AE9-E417-4067-9D12-261B18F744BE.png",
+        "/images/catalog/hos-prod-16/79CC1692-9B59-40F9-A607-A0B0A7AA17C4.png",
+        "/images/catalog/hos-prod-16/857746008_1825818585536989_1473476077070952445_n.webp",
+        "/images/catalog/hos-prod-16/863613907_1103472065789954_2289238817720834144_n.webp",
+        "/images/catalog/hos-prod-16/864193251_1783890032887345_2980656399835280498_n.webp",
+        "/images/catalog/hos-prod-16/F9D8D812-3334-4E19-BA4C-666358D447DA.png"
+      ],
+      "description": "A graceful white longline layer with blue geometric scalloped hem embroidery, paired with matching streamlined cutwork trousers.",
+      "details": "Collection: Embroidery Collection (Look 03)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White, Cobalt Blue\nFeatures: Scalloped laser-cut embroidered hem, three-quarter bell sleeves, matching cutwork trouser hems.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White",
+        "Cobalt"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Embroidery Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Festive",
+        "Daytime",
+        "Celebration"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "EMB-15003-B",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-17",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Multicolour Sleeve Botanical Print Co-ord",
+      "slug": "multicolour-sleeve-botanical-print-co-ord",
+      "price": 8500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-17/1B03824F-3BAA-480D-A4EC-8F61596360D7.png",
+        "/images/catalog/hos-prod-17/40399C56-35F8-437D-9B8C-A8B07C17C5FB.png",
+        "/images/catalog/hos-prod-17/8348D860-A853-4847-B5B7-85245F602DBF.png",
+        "/images/catalog/hos-prod-17/864074295_1815564709474307_506633939842039821_n.webp",
+        "/images/catalog/hos-prod-17/97B171BE-811C-4C7F-9E23-CB79EFFAFA89.png",
+        "/images/catalog/hos-prod-17/D88691CB-01A0-4E4C-A53E-514D584B9EEE.png",
+        "/images/catalog/hos-prod-17/single_0_0.jpg"
+      ],
+      "description": "A cheerful multicolored botanical-print tunic shirt with contrasting olive and tangerine color-blocked sleeves, paired with neutral relaxed trousers.",
+      "details": "Collection: Print Collection (Look 09)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Multicolor\nItem Options: Only shirt: Rs. 3,999\nFeatures: Colour-blocked raglan sleeves, split V-neckline with turquoise collar, tailored trouser.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multicolor",
+        "Beige"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Daytime",
+        "Brunch",
+        "Casual Luxury"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15009",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-18",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Lime Green Striped Botanical Longline Shirt Set",
+      "slug": "lime-green-striped-botanical-longline-shirt-set",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-18/825279512_960699476527366_6543739947612842016_n.webp",
+        "/images/catalog/hos-prod-18/825279649_2194615224770253_7847944347881493039_n.webp",
+        "/images/catalog/hos-prod-18/825279743_3303577369836495_2264388622340399894_n.webp",
+        "/images/catalog/hos-prod-18/826510460_1015883468177375_43820322614453884_n.webp",
+        "/images/catalog/hos-prod-18/827831926_1621812626324384_8848231396792871937_n.webp",
+        "/images/catalog/hos-prod-18/IMG_7023.JPG"
+      ],
+      "description": "A fresh lime-green candy striped longline tunic shirt featuring cross-stitch floral sleeve placements and tailored coordinating relaxed trousers.",
+      "details": "Collection: Print Collection (Look 05 / Look 15 variant)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose twill\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Lime Green, Yellow, White\nFeatures: Bold vertical stripe, embroidered sleeve art, lace back inset, clean cuffed finish.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Green",
+        "Yellow",
         "White"
       ],
       "category": "Co-ords",
       "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
+        "Resort",
         "Daytime",
-        "Festive",
-        "Evening"
+        "Brunch"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-05",
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15008-GN",
       "bestseller": false,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-emb-06",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Beige Floral Midi Dress",
-      "slug": "beige-floral-midi-dress",
-      "price": 15500,
+      "_id": "hos-prod-19",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Crimson Split-Print Sleeveless Maxi Dress",
+      "slug": "crimson-split-print-sleeveless-maxi-dress",
+      "price": 8500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-06/primary.png"
+        "/images/catalog/hos-prod-19/829528701_1132868192738815_4012477044904895767_n.webp",
+        "/images/catalog/hos-prod-19/827533094_1122555946908672_392823978201774204_n.webp",
+        "/images/catalog/hos-prod-19/828164523_888381637558408_5970833733414378242_n.webp",
+        "/images/catalog/hos-prod-19/828954497_1968779857151603_6361958976499310324_n.webp",
+        "/images/catalog/hos-prod-19/829189660_1442871711089059_8575092282002782592_n.webp"
       ],
-      "description": "A graceful beige-toned midi dress with floral accents, a softly gathered silhouette and long sleeves. An elegant statement for intimate occasions.",
-      "details": "Collection: Embroidery Collection (Look 06)\nDress Type: Dress\nFabric: Viscose georgette\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Beige",
+      "description": "A fluid sleeveless maxi silhouette showcasing a bold split design with red pinstripes and artistic abstract floral color fields. A versatile standout for day-to-evening styling.",
+      "details": "Collection: Print Collection (Look 10)\nDress Type: Dress\nFabric: Viscose satin\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Red Multicolor\nFeatures: V-neckline, dual graphic stripe and watercolor print, concealed back zip.",
       "sizes": [
         "XS",
         "S",
@@ -273,39 +1002,45 @@
         "XXL"
       ],
       "colors": [
-        "Beige"
+        "Red",
+        "Multicolor"
       ],
       "category": "Dresses",
       "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
+        "Resort",
+        "Evening",
+        "Party"
       ],
-      "inventory": 20,
+      "inventory": 25,
       "rating": 4.9,
-      "sku": "HOS-EMB-06",
-      "bestseller": true,
+      "sku": "PRT-15010-DR",
+      "bestseller": false,
       "newArrival": true,
       "featured": true
     },
     {
-      "_id": "hos-emb-07",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "White Multicolour Embroidered Set",
-      "slug": "white-multicolour-embroidered-set",
-      "price": 15500,
+      "_id": "hos-prod-20",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Dusty Rose Embroidered Wrap Jumpsuit Set",
+      "slug": "dusty-rose-embroidered-wrap-jumpsuit-set",
+      "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-07/primary.png"
+        "/images/catalog/hos-prod-20/825279842_1578210467319327_1391767372387755830_n.webp",
+        "/images/catalog/hos-prod-20/827983622_1584083059443936_8462831391857405001_n.webp",
+        "/images/catalog/hos-prod-20/825279843_2627290277786629_2570749050683525141_n.webp",
+        "/images/catalog/hos-prod-20/825279930_1032451686480864_6226030569388046021_n.webp",
+        "/images/catalog/hos-prod-20/827282071_1709281566831099_6196183991474410142_n.webp",
+        "/images/catalog/hos-prod-20/828939366_1138328968860794_5185625860861524202_n.webp"
       ],
-      "description": "A white statement shirt adorned with colorful botanical motifs, teamed with tailored straight-leg trousers for elevated modern dressing.",
-      "details": "Collection: Embroidery Collection (Look 07)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-silk blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White",
+      "description": "A chic dusty rose wrap co-ord set with delicate grid-texture print, floral needlework embellishments, and matching self-tie sash belt.",
+      "details": "Collection: Print Collection (Look 12)\nDress Type: Shirt & trouser co-ord\nFabric: Crepe blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Dusty Rose, Pink\nFeatures: Surplice wrap collar, embroidered botanical vine motifs, sash belt, straight-leg trouser.",
       "sizes": [
         "XS",
         "S",
@@ -315,81 +1050,46 @@
         "XXL"
       ],
       "colors": [
-        "White"
+        "Pink",
+        "Dusty Rose"
       ],
       "category": "Co-ords",
       "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "Print Collection",
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
         "Daytime",
-        "Festive",
-        "Evening"
+        "Brunch",
+        "Celebration"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-07",
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15012",
       "bestseller": false,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-emb-08",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "White Floral Embroidered Co-ord",
-      "slug": "white-floral-embroidered-co-ord",
+      "_id": "hos-prod-21",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Midnight Black Sheer Floral Organza Co-ord Set",
+      "slug": "midnight-black-sheer-floral-organza-co-ord-set",
       "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-08/primary.png"
+        "/images/catalog/hos-prod-21/861996276_1097587233123438_5104223651731659750_n.webp",
+        "/images/catalog/hos-prod-21/1BFD027E-F184-45BB-B237-7CC275CE1E9B.png",
+        "/images/catalog/hos-prod-21/0CEB3389-4CF7-4CBA-95A2-BE2A1EE805B3.png",
+        "/images/catalog/hos-prod-21/863183910_1184360037454536_8132714575389905199_n.webp",
+        "/images/catalog/hos-prod-21/863369931_1135029782285884_6898181541829643538_n.webp",
+        "/images/catalog/hos-prod-21/ACD91C74-EFE6-4AC9-8E14-D02EA7802695.png",
+        "/images/catalog/hos-prod-21/F9EC2FC3-22DF-433D-8FB2-27711DB53783.png"
       ],
-      "description": "A relaxed white top featuring colorful floral detailing and a flowing coordinating bottom. A fresh everyday-to-occasion ensemble.",
-      "details": "Collection: Embroidery Collection (Look 08)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White\nItem Options: Only shirt: Rs. 5,450",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "White"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-08",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-emb-09",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Black Floral Organza Co-ord",
-      "slug": "black-floral-organza-co-ord",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-emb-09/primary.png"
-      ],
-      "description": "A striking black organza-layered look featuring vibrant floral accents and wide-leg trousers. Sheer detailing brings depth to this evening-ready outfit.",
-      "details": "Collection: Embroidery Collection (Look 09)\nDress Type: Shirt & trouser co-ord\nFabric: Organza (source-listed)\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Black\nItem Options: Only shirt: Rs. 5,450",
+      "description": "A striking black organza-layered look featuring vibrant multicolored botanical accents and fluid wide-leg trousers. Sheer detailing brings depth to this evening-ready outfit.",
+      "details": "Collection: Embroidery Collection (Look 09)\nDress Type: Shirt & trouser co-ord\nFabric: Organza\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Black\nItem Options: Only shirt: Rs. 5,450\nFeatures: Translucent organza overlay, artisanal multicolor botanical embroidery, fluid black trousers.",
       "sizes": [
         "XS",
         "S",
@@ -404,34 +1104,89 @@
       "category": "Co-ords",
       "collections": [
         "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
+        "Evening",
+        "Cocktail",
+        "Party"
       ],
-      "inventory": 20,
+      "inventory": 25,
       "rating": 4.9,
-      "sku": "HOS-EMB-09",
+      "sku": "EMB-15009",
       "bestseller": true,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-emb-10",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Floral Bib Top & Trouser Set",
-      "slug": "floral-bib-top-and-trouser-set",
+      "_id": "hos-prod-22",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Blush Macram\u00e9 Lace Shirt Maxi Dress",
+      "slug": "blush-macrame-lace-shirt-maxi-dress",
       "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-10/primary.png"
+        "/images/catalog/hos-prod-22/825279887_1077033681769393_4930995704686072722_n.webp",
+        "/images/catalog/hos-prod-22/857437476_1581218250447589_6020089318252322219_n.webp",
+        "/images/catalog/hos-prod-22/827940850_1411663583660021_6987395755852497916_n.webp",
+        "/images/catalog/hos-prod-22/857437501_1431973339033523_1252771719301479542_n.webp",
+        "/images/catalog/hos-prod-22/858402614_1603162551844580_1149885294434165046_n.webp",
+        "/images/catalog/hos-prod-22/858430024_1959909271649384_3546333407611202960_n.webp",
+        "/images/catalog/hos-prod-22/860179726_1095898163250385_6055094610849268094_n.webp"
       ],
-      "description": "A bold sleeveless floral bib-style top paired with relaxed trousers. Available in versatile neutrals for a contemporary statement look. Listed separate price applies to bib only.",
-      "details": "Collection: Embroidery Collection (Look 10)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-silk blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White, Black, Beige\nItem Options: Bib only: Rs. 5,450",
+      "description": "A crisp and romantic long shirt dress featuring intricate geometric cutwork lace over the yoke and shoulders, fringed tassel trim, and a softly gathered skirt.",
+      "details": "Collection: Embroidery Collection (Look 05)\nDress Type: Shirt Dress\nFabric: Cotton blend with macram\u00e9 lace\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Blush Pink, White\nFeatures: Handcrafted macram\u00e9 bodice, delicate fringe hemline, button-front placket.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blush Pink",
+        "White"
+      ],
+      "category": "Dresses",
+      "collections": [
+        "Embroidery Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Festive",
+        "Daytime",
+        "Occasion"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "EMB-15005",
+      "bestseller": false,
+      "newArrival": true,
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-23",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Mosaic Cutwork Bomber Jacket & Trouser Set",
+      "slug": "mosaic-cutwork-bomber-jacket-trouser-set",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-23/825279595_1087265390686895_4257664948290080685_n.webp",
+        "/images/catalog/hos-prod-23/825279470_1796536734799785_3398676533445921648_n.webp",
+        "/images/catalog/hos-prod-23/825279830_1122448617130830_6302372295195773371_n.webp",
+        "/images/catalog/hos-prod-23/825279983_953236283948684_8763676095616078666_n.webp",
+        "/images/catalog/hos-prod-23/825280404_1514450857107266_3242593701164836442_n.webp",
+        "/images/catalog/hos-prod-23/829092993_1750320972690236_6608598767146280271_n.webp",
+        "/images/catalog/hos-prod-23/829123756_1741855980260650_8166298235060378119_n.webp"
+      ],
+      "description": "A sporty-chic white zip-front bomber jacket featuring colorful geometric mosaic floral cutwork patterns, paired with relaxed wide-leg ivory trousers.",
+      "details": "Collection: Embroidery Collection (Look 08)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White, Multi\nItem Options: Only shirt: Rs. 5,450\nFeatures: Full-zip bomber jacket, rib-knit baseball collar, geometric cutout mesh, wide trousers.",
       "sizes": [
         "XS",
         "S",
@@ -442,125 +1197,48 @@
       ],
       "colors": [
         "White",
-        "Black",
-        "Beige"
+        "Multi"
       ],
       "category": "Co-ords",
       "collections": [
         "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
         "Daytime",
-        "Festive",
-        "Evening"
+        "Casual Luxury",
+        "Travel"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-10",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-emb-11",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Multicolour Embroidered Shirt Set",
-      "slug": "multicolour-embroidered-shirt-set",
-      "price": 15500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-emb-11/primary.png"
-      ],
-      "description": "A white shirt brightened with multicolored floral embellishment and softly flowing trousers. A polished yet playful occasion set.",
-      "details": "Collection: Embroidery Collection (Look 11)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White\nItem Options: Only shirt: Rs. 7,995",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "White"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-11",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-emb-12",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Black & White Floral Co-ord Set",
-      "slug": "black-and-white-floral-co-ord-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-emb-12/primary.png"
-      ],
-      "description": "A sleeveless floral-detail top paired with airy wide-leg bottoms. Offered in monochrome colorways for timeless mix-and-match styling.",
-      "details": "Collection: Embroidery Collection (Look 12)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Black, White\nItem Options: Only shirt: Rs. 5,450",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Black",
-        "White"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
+      "inventory": 25,
       "rating": 4.9,
-      "sku": "HOS-EMB-12",
-      "bestseller": true,
+      "sku": "EMB-15008",
+      "bestseller": false,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-emb-13",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Beige & Maroon Floral Shirt Set",
-      "slug": "beige-and-maroon-floral-shirt-set",
+      "_id": "hos-prod-24",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Beige Patchwork Embroidered Bib & Trouser Set",
+      "slug": "beige-patchwork-embroidered-bib-trouser-set",
       "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-emb-13/primary.png"
+        "/images/catalog/hos-prod-24/809076964_28306823768928186_1146001524439852034_n.webp",
+        "/images/catalog/hos-prod-24/24764A6F-5DDC-4655-8BA2-A956264BF8D9.png",
+        "/images/catalog/hos-prod-24/4A79F7A9-A777-4683-A042-DC85867B0CBE.png",
+        "/images/catalog/hos-prod-24/6CAF2C09-0A50-4BC1-87BF-CA7749B4849E.png",
+        "/images/catalog/hos-prod-24/797339529_1757267455378737_2684683800063671309_n.webp",
+        "/images/catalog/hos-prod-24/808375516_1971214810209064_3186579452384673255_n.webp",
+        "/images/catalog/hos-prod-24/809184680_2447969525695758_8775487954641961865_n.webp",
+        "/images/catalog/hos-prod-24/809184680_911142938428809_6618174039913805540_n.webp",
+        "/images/catalog/hos-prod-24/809211740_1703445977384770_1538915065060557628_n.webp",
+        "/images/catalog/hos-prod-24/809415943_1752652085885890_4988691158818074256_n.webp"
       ],
-      "description": "A richly detailed button-front shirt with floral-inspired motifs, paired with easy-fit trousers. Choose warm beige or deep maroon for a standout look.",
-      "details": "Collection: Embroidery Collection (Look 13)\nDress Type: Shirt & trouser co-ord\nFabric: Modal satin\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Beige, Maroon\nItem Options: Only shirt: Rs. 5,995",
+      "description": "A statement sleeveless floral bib top featuring patchwork cross-stitch botanical embroidery, lace insets, and delicate side ribbon ties, worn over a white shirt and wide trousers.",
+      "details": "Collection: Embroidery Collection (Look 10)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-silk blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Beige, Ivory\nItem Options: Bib only: Rs. 5,450\nFeatures: Tie-side ribbons, lace ladder inserts, botanical motif patches, tailored trouser.",
       "sizes": [
         "XS",
         "S",
@@ -571,548 +1249,46 @@
       ],
       "colors": [
         "Beige",
-        "Maroon"
+        "Ivory"
       ],
       "category": "Co-ords",
       "collections": [
         "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
-        "Daytime",
         "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-13",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-emb-14",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "White Floral Embroidered Shirt Set",
-      "slug": "white-floral-embroidered-shirt-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-emb-14/primary.png"
-      ],
-      "description": "A crisp ivory-white button-front shirt featuring subtle botanical placements, styled with contrasting trousers for modern sophistication.",
-      "details": "Collection: Embroidery Collection (Look 14)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-linen blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White\nItem Options: Only shirt: Rs. 5,995",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "White"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
         "Daytime",
-        "Festive",
-        "Evening"
+        "Occasion"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-14",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-emb-15",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "White Floral Shirt & Trouser Set",
-      "slug": "white-floral-shirt-and-trouser-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-emb-15/primary.png"
-      ],
-      "description": "A graceful white coordinated look featuring small floral accents and a clean, tailored silhouette. An easy piece for elegant daytime styling.",
-      "details": "Collection: Embroidery Collection (Look 15)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White\nItem Options: Only shirt: Rs. 5,995",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "White"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Embroidery Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-EMB-15",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-01",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Blue Abstract Print Co-ord Set",
-      "slug": "blue-abstract-print-co-ord-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-01/primary.jpg"
-      ],
-      "description": "A striking blue abstract-print shirt paired with matching fluid trousers. Saturated shades and an easy silhouette create an expressive resort-ready look.",
-      "details": "Collection: Print Collection (Look 01)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Blue",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Blue"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
+      "inventory": 25,
       "rating": 4.9,
-      "sku": "HOS-PRI-01",
-      "bestseller": true,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-02",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Multicolour Printed Co-ord Set",
-      "slug": "multicolour-printed-co-ord-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-02/primary.png"
-      ],
-      "description": "A playful coordinated set with vibrant painterly print, relaxed top and matching trousers. Available in cheerful color options.",
-      "details": "Collection: Print Collection (Look 02)\nDress Type: Shirt & trouser co-ord\nFabric: Rayon-viscose\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Pink, Green, Yellow",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Pink",
-        "Green",
-        "Yellow"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-02",
+      "sku": "EMB-15010-BG",
       "bestseller": false,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-prt-03",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Sky Blue Floral Print Co-ord",
-      "slug": "sky-blue-floral-print-co-ord",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-03/primary.png"
-      ],
-      "description": "An airy sky-blue ensemble with a floral-print relaxed top and softly gathered wide-leg bottoms. A fresh statement for daytime occasions.",
-      "details": "Collection: Print Collection (Look 03)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sky Blue\nItem Options: Only shirt: Rs. 4,950",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Sky Blue"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-03",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-04",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Floral Bib Co-ord Set",
-      "slug": "floral-bib-co-ord-set",
-      "price": 12500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-04/primary.png"
-      ],
-      "description": "A light-toned coordinated outfit featuring a decorative multicolored floral bib-style overlay and relaxed trousers. Feminine, airy and occasion-ready.",
-      "details": "Collection: Print Collection (Look 04)\nDress Type: Shirt & trouser co-ord\nFabric: Georgette overlay + crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White, Blue\nStyle / Reference Code: 15010",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "White",
-        "Blue"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.9,
-      "sku": "15010",
-      "bestseller": true,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-05",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Blue Botanical Print Shirt Set",
-      "slug": "blue-botanical-print-shirt-set",
-      "price": 8500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-05/primary.png"
-      ],
-      "description": "A botanical-print shirt combining rich blue accents with a relaxed trouser silhouette. Designed for modern, effortless styling.",
-      "details": "Collection: Print Collection (Look 05)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sky Blue, Yellow\nStyle / Reference Code: 15008",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Sky Blue",
-        "Yellow"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "15008",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-06",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Beige Floral Print Shirt Set",
-      "slug": "beige-floral-print-shirt-set",
-      "price": 8500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-06/primary.png"
-      ],
-      "description": "A soft beige printed shirt with colorful botanical motifs, paired with easy draped trousers for understated everyday elegance.",
-      "details": "Collection: Print Collection (Look 06)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Beige\nStyle / Reference Code: 15006",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Beige"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "15006",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-07",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Red Abstract Print Co-ord Set",
-      "slug": "red-abstract-print-co-ord-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-07/primary.png"
-      ],
-      "description": "A bold red-and-dark abstract-print top with coordinated flowing trousers. A high-impact look for gatherings and creative occasion dressing.",
-      "details": "Collection: Print Collection (Look 07)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Red",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Red"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-07",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-08",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Black & Orange Printed Co-ord",
-      "slug": "black-and-orange-printed-co-ord",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-08/primary.png"
-      ],
-      "description": "An oversized artistic-print top in punchy orange and dark tones, balanced with soft, wide-leg trousers. A confident contemporary ensemble.",
-      "details": "Collection: Print Collection (Look 08)\nDress Type: Shirt & trouser co-ord\nFabric: Rayon-viscose\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Black, Orange",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Black",
-        "Orange"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.9,
-      "sku": "HOS-PRI-08",
-      "bestseller": true,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-09",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Multicolour Floral Print Co-ord",
-      "slug": "multicolour-floral-print-co-ord",
-      "price": 8500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-09/primary.png"
-      ],
-      "description": "A cheerful multicolored botanical-print shirt with soft, relaxed trousers. An easy statement outfit for brunches and getaways.",
-      "details": "Collection: Print Collection (Look 09)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Multicolor\nItem Options: Only shirt: Rs. 3,999",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Multicolor"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-09",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-10",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Red Multicolour Printed Maxi Dress",
-      "slug": "red-multicolour-printed-maxi-dress",
-      "price": 8500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-10/primary.png"
-      ],
-      "description": "A fluid sleeveless maxi silhouette with bold red and multicolor artistic print. A versatile standout for day-to-evening styling.",
-      "details": "Collection: Print Collection (Look 10)\nDress Type: Dress\nFabric: Viscose satin\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Red Multicolor",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Red Multicolor"
-      ],
-      "category": "Dresses",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-10",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-11",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Pink Printed Co-ord Set",
-      "slug": "pink-printed-co-ord-set",
+      "_id": "hos-prod-25",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Tangerine Bolero & Geometric Print Jumpsuit Set",
+      "slug": "tangerine-bolero-geometric-print-jumpsuit-set",
       "price": 13500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-prt-11/primary.png"
+        "/images/catalog/hos-prod-25/212EA8C1-05DB-4E12-9876-E4833F418C8B.png",
+        "/images/catalog/hos-prod-25/BD693A4A-A699-4C59-8C37-7739EFEB45FB.png",
+        "/images/catalog/hos-prod-25/29493BC0-3E00-40CC-B0DD-9BCE12D9F39F.png",
+        "/images/catalog/hos-prod-25/3E1CE821-F47D-41C5-950E-4DEF1C6216BA.png",
+        "/images/catalog/hos-prod-25/825279730_4611976865739540_2057221281434000325_n.webp",
+        "/images/catalog/hos-prod-25/825279787_2199352877308875_3371153298443839327_n.webp",
+        "/images/catalog/hos-prod-25/C4E86059-1F19-47DB-B382-DA232AD6F5E4.png",
+        "/images/catalog/hos-prod-25/D628377B-4009-4345-B85B-FF8745754666.png"
       ],
-      "description": "A light-pink printed ensemble with relaxed proportions and delicate painterly motifs. An elegant, playful look for daytime events.",
-      "details": "Collection: Print Collection (Look 11)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Light Pink",
+      "description": "A vibrant cropped tangerine jacket adorned with beaded fringe along the sleeves, paired with a colorful geometric painterly jumpsuit with lace sweetheart neckline and waist sash.",
+      "details": "Collection: Print Collection (Look 11)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Orange, Multi\nFeatures: Cropped open bolero, beaded tassel accents, camisole jumpsuit with tie sash, wide legs.",
       "sizes": [
         "XS",
         "S",
@@ -1122,125 +1298,47 @@
         "XXL"
       ],
       "colors": [
-        "Light Pink"
+        "Orange",
+        "Blue",
+        "Multi"
       ],
       "category": "Co-ords",
       "collections": [
         "Print Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
+        "Party",
+        "Cocktail",
+        "Resort"
       ],
-      "inventory": 20,
+      "inventory": 25,
       "rating": 4.9,
-      "sku": "HOS-PRI-11",
-      "bestseller": true,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-12",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Printed Contrast Co-ord Set",
-      "slug": "printed-contrast-co-ord-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-12/primary.png"
-      ],
-      "description": "A bright orange cropped layer meets a graphic-print flowing bottom for a chic, contemporary contrast look.",
-      "details": "Collection: Print Collection (Look 12)\nDress Type: Shirt & trouser co-ord\nFabric: Crepe blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Black, Orange",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Black",
-        "Orange"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-12",
+      "sku": "PRT-15011",
       "bestseller": false,
       "newArrival": true,
       "featured": true
     },
     {
-      "_id": "hos-prt-13",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Green & Pink Printed Co-ord Set",
-      "slug": "green-and-pink-printed-co-ord-set",
-      "price": 9500,
+      "_id": "hos-prod-26",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "White Puff-Sleeve Botanical Embroidered Set",
+      "slug": "white-puff-sleeve-botanical-embroidered-set",
+      "price": 15500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-prt-13/primary.png"
+        "/images/catalog/hos-prod-26/825279943_2866207660431350_637126771856273214_n.webp",
+        "/images/catalog/hos-prod-26/828164546_1123945890064594_3306363250310042044_n.webp",
+        "/images/catalog/hos-prod-26/828831952_1111927978454675_7087984043685283324_n.webp",
+        "/images/catalog/hos-prod-26/858402649_1605675943959628_8254614812483648003_n.webp",
+        "/images/catalog/hos-prod-26/858458047_28098631503143701_8904450114161310169_n.webp",
+        "/images/catalog/hos-prod-26/858525124_2083484682280692_1034858888816374838_n.webp",
+        "/images/catalog/hos-prod-26/860071612_2651366321983909_4520370169368543706_n.webp"
       ],
-      "description": "A comfortable coordinated tunic and trouser set with bold botanical detailing, offered in lush green and lively pink.",
-      "details": "Collection: Print Collection (Look 13)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Green, Pink",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Green",
-        "Pink"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-13",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-14",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "White & Blue Floral Print Shirt Set",
-      "slug": "white-and-blue-floral-print-shirt-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-14/primary.png"
-      ],
-      "description": "A softly structured printed shirt featuring lively watercolor-style florals, designed to pair beautifully with wide-leg trousers.",
-      "details": "Collection: Print Collection (Look 14)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White, Blue\nItem Options: Only shirt: Rs. 5,495",
+      "description": "A white statement shirt adorned with puffed gathered sleeves, ruffled embroidered cuffs, and vibrant botanical needlework, teamed with tailored wide trousers.",
+      "details": "Collection: Embroidery Collection (Look 07)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-silk blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: White\nFeatures: Contrast embroidered Peter Pan collar, voluminous puff sleeves with ruffle cuff, tailored straight-leg trousers.",
       "sizes": [
         "XS",
         "S",
@@ -1251,82 +1349,44 @@
       ],
       "colors": [
         "White",
-        "Blue"
+        "Ivory"
       ],
       "category": "Co-ords",
       "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
+        "Embroidery Collection",
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
-        "Daytime",
         "Festive",
-        "Evening"
+        "Daytime",
+        "Occasion"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-14",
-      "bestseller": false,
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "EMB-15007",
+      "bestseller": true,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-prt-15",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Black & Brown Colour-Block Co-ord",
-      "slug": "black-and-brown-colour-block-co-ord",
+      "_id": "hos-prod-27",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Sky Blue Watercolor Floral Shirt Set",
+      "slug": "sky-blue-watercolor-floral-shirt-set",
       "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-prt-15/primary.png"
+        "/images/catalog/hos-prod-27/857107018_1457583649804360_2666259245818148775_n.webp",
+        "/images/catalog/hos-prod-27/858381714_1477170714282819_5675210783574889766_n.webp",
+        "/images/catalog/hos-prod-27/860071595_1621061313149122_5828689619774043554_n.webp",
+        "/images/catalog/hos-prod-27/860179764_4678913785670043_1314861410139555852_n.webp",
+        "/images/catalog/hos-prod-27/861787060_1182545661259179_6062474820143110286_n.webp",
+        "/images/catalog/hos-prod-27/861905392_1150504930737918_178604749779543_n.webp"
       ],
-      "description": "A modern two-tone shirt with graphic color-block placement and relaxed trousers. A versatile tailored look with an artistic twist.",
-      "details": "Collection: Print Collection (Look 15)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose twill\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Black, Brown\nItem Options: Only shirt: Rs. 5,450",
-      "sizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "colors": [
-        "Black",
-        "Brown"
-      ],
-      "category": "Co-ords",
-      "collections": [
-        "Print Collection",
-        "New Season",
-        "New Arrivals"
-      ],
-      "occasions": [
-        "Daytime",
-        "Festive",
-        "Evening"
-      ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-15",
-      "bestseller": false,
-      "newArrival": true,
-      "featured": true
-    },
-    {
-      "_id": "hos-prt-16",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Pastel Printed Co-ord Set",
-      "slug": "pastel-printed-co-ord-set",
-      "price": 9500,
-      "discount": 0,
-      "images": [
-        "/images/catalog/hos-prt-16/primary.png"
-      ],
-      "description": "A loose-fit floral-print shirt and relaxed bottom pairing in pastel blue or yellow. Designed for fresh, easy statement dressing.",
-      "details": "Collection: Print Collection (Look 16)\nDress Type: Shirt & trouser co-ord\nFabric: Rayon-viscose\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sky Blue, Yellow",
+      "description": "A softly structured button-front shirt featuring lively watercolor-style florals on a fresh sky-blue base with artisanal beaded edges, designed to pair with fluid wide trousers.",
+      "details": "Collection: Print Collection (Look 14)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sky Blue, Ivory\nItem Options: Only shirt: Rs. 5,495\nFeatures: Beaded collar and cuff trim, back pleats, botanical watercolor roses, wide trousers.",
       "sizes": [
         "XS",
         "S",
@@ -1337,39 +1397,44 @@
       ],
       "colors": [
         "Sky Blue",
-        "Yellow"
+        "Ivory"
       ],
       "category": "Co-ords",
       "collections": [
         "Print Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
         "Daytime",
-        "Festive",
-        "Evening"
+        "Brunch",
+        "Casual Luxury"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-16",
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15014-BL",
       "bestseller": false,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-prt-17",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Multicolour Printed Shirt Set",
-      "slug": "multicolour-printed-shirt-set",
+      "_id": "hos-prod-28",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Sunlight Yellow Watercolor Floral Shirt Set",
+      "slug": "sunlight-yellow-watercolor-floral-shirt-set",
       "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-prt-17/primary.png"
+        "/images/catalog/hos-prod-28/858357181_29216045684688279_4816789109042348037_n.webp",
+        "/images/catalog/hos-prod-28/858357236_1397720522102918_6327168685540709952_n.webp",
+        "/images/catalog/hos-prod-28/858430053_1167836705810340_4190284946708992511_n.webp",
+        "/images/catalog/hos-prod-28/858642276_4694831634174596_8338659405925143353_n.webp",
+        "/images/catalog/hos-prod-28/860113117_1417152943414818_460773204108905289_n.webp",
+        "/images/catalog/hos-prod-28/860365466_967329349430671_7710347552682542796_n.webp"
       ],
-      "description": "A relaxed artistic-print shirt with contrasting dark trousers. Warm color options bring a polished, contemporary feel.",
-      "details": "Collection: Print Collection (Look 17)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose twill\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Brown, Black, Red, Aubergine",
+      "description": "A radiant sunlight-yellow variation of the signature watercolor floral shirt, finished with contrast beading along the collar and three-quarter cuffs, paired with fluid trousers.",
+      "details": "Collection: Print Collection (Look 14 - Yellow)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sunlight Yellow, Ivory\nItem Options: Only shirt: Rs. 5,495\nFeatures: Radiant pastel yellow tone, beaded edge finish, relaxed drop-shoulder cut.",
       "sizes": [
         "XS",
         "S",
@@ -1379,42 +1444,44 @@
         "XXL"
       ],
       "colors": [
-        "Brown",
-        "Black",
-        "Red",
-        "Aubergine"
+        "Yellow",
+        "Sunlight Yellow"
       ],
       "category": "Co-ords",
       "collections": [
         "Print Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
         "Daytime",
-        "Festive",
-        "Evening"
+        "Resort",
+        "Brunch"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-17",
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15014-YL",
       "bestseller": false,
       "newArrival": true,
-      "featured": true
+      "featured": false
     },
     {
-      "_id": "hos-prt-18",
-      "createdAt": "2026-11-13T00:00:00.000Z",
-      "updatedAt": "2026-11-13T00:00:00.000Z",
-      "name": "Aubergine Printed Co-ord Set",
-      "slug": "aubergine-printed-co-ord-set",
+      "_id": "hos-prod-29",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Sage Green Watercolor Floral Shirt Set",
+      "slug": "sage-green-watercolor-floral-shirt-set",
       "price": 9500,
       "discount": 0,
       "images": [
-        "/images/catalog/hos-prt-18/primary.png"
+        "/images/catalog/hos-prod-29/857248166_1673322097499709_8819955472982777459_n.webp",
+        "/images/catalog/hos-prod-29/858336447_1153883303961320_1530425683832765247_n.webp",
+        "/images/catalog/hos-prod-29/858430070_2201147953765892_6870887545131186495_n.webp",
+        "/images/catalog/hos-prod-29/861905435_2551419572024308_8580110114469715897_n.webp",
+        "/images/catalog/hos-prod-29/863422002_2644678509317851_10447349931977061_n.webp"
       ],
-      "description": "A rich aubergine-toned printed shirt with coordinated relaxed trousers. A stylish option for effortless day-to-night dressing.",
-      "details": "Collection: Print Collection (Look 18)\nDress Type: Shirt & trouser co-ord\nFabric: Viscose crepe\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Aubergine",
+      "description": "An earthy sage-green botanical watercolor shirt styled with easy wide-leg ivory trousers. Delicately accented with handcrafted beading along the collar and cuffs.",
+      "details": "Collection: Print Collection (Look 14 - Green)\nDress Type: Shirt & trouser co-ord\nFabric: Cotton-viscose blend\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Sage Green, Ivory\nItem Options: Only shirt: Rs. 5,495\nFeatures: Sage green wash, pixelated floral needlework, point collar, fluid straight-leg pants.",
       "sizes": [
         "XS",
         "S",
@@ -1424,25 +1491,84 @@
         "XXL"
       ],
       "colors": [
-        "Aubergine"
+        "Green",
+        "Sage Green"
       ],
       "category": "Co-ords",
       "collections": [
         "Print Collection",
-        "New Season",
-        "New Arrivals"
+        "New Arrivals",
+        "New Season"
       ],
       "occasions": [
         "Daytime",
-        "Festive",
-        "Evening"
+        "Casual Luxury",
+        "Brunch"
       ],
-      "inventory": 20,
-      "rating": 4.8,
-      "sku": "HOS-PRI-18",
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "PRT-15014-GR",
       "bestseller": false,
       "newArrival": true,
-      "featured": true
+      "featured": false
+    },
+    {
+      "_id": "hos-prod-30",
+      "createdAt": "2026-11-14T00:00:00.000Z",
+      "updatedAt": "2026-11-14T00:00:00.000Z",
+      "name": "Deep Maroon Embroidered Satin Shirt Set",
+      "slug": "deep-maroon-embroidered-satin-shirt-set",
+      "price": 9500,
+      "discount": 0,
+      "images": [
+        "/images/catalog/hos-prod-30/858346058_1818324092922898_6186636356419473543_n.webp",
+        "/images/catalog/hos-prod-30/858357162_1810311253429136_6268601466132174900_n.webp",
+        "/images/catalog/hos-prod-30/858357192_4689507491195133_3785455529657391959_n.webp",
+        "/images/catalog/hos-prod-30/858381687_2039514236756617_1098379339039927404_n.webp",
+        "/images/catalog/hos-prod-30/858381725_1446607210732604_1985339284966227581_n.webp",
+        "/images/catalog/hos-prod-30/858430065_1314739904071052_8487193718604508004_n.webp",
+        "/images/catalog/hos-prod-30/859939058_1658353816079027_866940693814490418_n.webp",
+        "/images/catalog/hos-prod-30/859939068_1158941840010300_7182489153902060389_n.webp",
+        "/images/catalog/hos-prod-30/859977809_1694275859056582_4998656249049293137_n.webp",
+        "/images/catalog/hos-prod-30/859977852_1109584168724311_3465623726197431795_n.webp",
+        "/images/catalog/hos-prod-30/860071647_1473617507988989_8968811223508241677_n.webp",
+        "/images/catalog/hos-prod-30/860179779_2327171408082766_3611556064756174418_n.webp",
+        "/images/catalog/hos-prod-30/861274532_1088927833773102_1714751143643156620_n.webp",
+        "/images/catalog/hos-prod-30/861974252_1740422027061162_6982906696296259781_n.webp",
+        "/images/catalog/hos-prod-30/863101905_2240109169949817_4747132354767786137_n.webp",
+        "/images/catalog/hos-prod-30/864469980_1135530782363941_3486840409109692869_n.png"
+      ],
+      "description": "A richly detailed button-front satin shirt in deep maroon with pixel-inspired floral motifs, paired with coordinating fluid satin trousers for standout evening luxury.",
+      "details": "Collection: Embroidery Collection (Look 13)\nDress Type: Shirt & trouser co-ord\nFabric: Modal satin\nAvailable Sizes: XS, S, M, L, XL, XXL\nColors: Maroon, Wine\nItem Options: Only shirt: Rs. 5,995\nFeatures: Lustrous modal satin, pixelated rose embroidery, blanket stitch collar, fluid wide trousers.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Maroon",
+        "Wine"
+      ],
+      "category": "Co-ords",
+      "collections": [
+        "Embroidery Collection",
+        "New Arrivals",
+        "New Season"
+      ],
+      "occasions": [
+        "Evening",
+        "Party",
+        "Festive"
+      ],
+      "inventory": 25,
+      "rating": 4.9,
+      "sku": "EMB-15013-MR",
+      "bestseller": true,
+      "newArrival": true,
+      "featured": false
     }
   ],
   "orders": [],
@@ -1510,7 +1636,7 @@
     }
   ],
   "cms": {
-    "announcement": "FREE SHIPPING ACROSS INDIA — NEW COLLECTION — SHOP NOW",
+    "announcement": "FREE SHIPPING ACROSS INDIA \u2014 NEW COLLECTION \u2014 SHOP NOW",
     "hero": {
       "heading": "THE NEW STANDARD OF MODERN LUXURY",
       "subheading": "Designed for women who define their own style.",
