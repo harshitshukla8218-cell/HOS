@@ -25,10 +25,12 @@ import AdminDashboard from './pages/AdminDashboard.jsx';
 import About from './pages/About.jsx';
 import Questions from './pages/Questions.jsx';
 import NotFound from './pages/NotFound.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <AuthProvider>
         <WishlistProvider>
           <CMSProvider>

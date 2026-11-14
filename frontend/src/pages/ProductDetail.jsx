@@ -40,6 +40,7 @@ export default function ProductDetail() {
   const [submittingReview, setSubmittingReview] = useState(false);
 
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
     async function loadProductData() {
       setLoading(true);
       try {
@@ -98,9 +99,9 @@ export default function ProductDetail() {
 
   // High-end image zoom calculation
   const handleMouseMove = (e) => {
-    const { left, top, width, height } = e.target.getBoundingClientRect();
-    const x = ((e.pageX - window.scrollX - left) / width) * 100;
-    const y = ((e.pageY - window.scrollY - top) / height) * 100;
+    const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - left) / width) * 100;
+    const y = ((e.clientY - top) / height) * 100;
     setZoomStyle({
       display: 'block',
       backgroundImage: `url(${product.images[activeImageIdx]})`,
@@ -161,7 +162,7 @@ export default function ProductDetail() {
 
           {/* Main Visual Window with Multi-Angle Controls */}
           <div
-            className="group relative aspect-[4/5] bg-luxury-beige rounded-sm overflow-hidden border border-luxury-charcoal/5 cursor-zoom-in"
+            className="group relative aspect-[4/5] bg-luxury-beige/30 rounded-sm overflow-hidden border border-luxury-charcoal/5 cursor-zoom-in flex items-center justify-center"
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           >
@@ -171,11 +172,11 @@ export default function ProductDetail() {
               style={zoomStyle}
             ></div>
 
-            {/* Flat Image */}
+            {/* Flat Image (Full model & face framing preserved) */}
             <img
               src={product.images[activeImageIdx]}
               alt={`${product.name} view ${activeImageIdx + 1}`}
-              className="w-full h-full object-cover select-none"
+              className="w-full h-full object-contain object-center select-none"
             />
 
             {/* Multi-angle Prev / Next overlay navigation buttons */}

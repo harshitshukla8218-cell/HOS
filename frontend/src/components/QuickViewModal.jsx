@@ -55,11 +55,11 @@ export default function QuickViewModal({ product, onClose }) {
 
         {/* Left Side: Product Image Display with Multi-Angle View */}
         <div className="space-y-3 pr-0 md:pr-6">
-          <div className="group relative aspect-[4/5] w-full overflow-hidden bg-luxury-beige rounded-sm border border-luxury-charcoal/5">
+          <div className="group relative aspect-[4/5] w-full overflow-hidden bg-luxury-beige/30 rounded-sm border border-luxury-charcoal/5 flex items-center justify-center">
             <img
               src={product.images[activeImageIdx] || product.images[0]}
               alt={`${product.name} view ${activeImageIdx + 1}`}
-              className="w-full h-full object-cover select-none"
+              className="w-full h-full object-contain object-center select-none"
             />
 
             {product.images && product.images.length > 1 && (

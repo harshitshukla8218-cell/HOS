@@ -41,7 +41,7 @@ export default function ProductCard({ product, onQuickView }) {
           <img
             src={hovered && product.images[1] ? product.images[1] : product.images[0]}
             alt={product.name}
-            className="w-full h-full object-cover transition-all duration-700 ease-in-out group-hover:scale-[1.03]"
+            className="w-full h-full object-cover object-top transition-all duration-700 ease-in-out group-hover:scale-[1.03]"
             loading="lazy"
           />
         </Link>
